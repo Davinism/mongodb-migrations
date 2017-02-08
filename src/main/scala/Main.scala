@@ -1,53 +1,84 @@
+package com.davinkim.mongodb_migrations
+
 import java.io._
+
 import play.api._
 import play.api.libs.Codecs._
 import play.api.libs.Collections
+
 import scala.io.Source
 import scala.util.control.NonFatal
 import play.core.HandleWebCommandSupport
 import play.api.libs.json._
-import play.api.libs.Files
+import play.api.libs.Files.TemporaryFile
 import org.slf4j.LoggerFactory
 import java.nio.file.Files
-
 import javax.inject.Inject
 
-class Main(config: String, evolutions: String) {
+import scala.collection.mutable.HashMap
 
+class Main(config: String, evolutions: String) {
+  def getConfig(): String =
+    this.config
+
+  def getEvolutions(): String =
+    this.evolutions
 }
 
 object Main extends App {
+  if (args.length != 2)
+
+    /**
+      * TODO: Add appropriate error checks and handling
+      */
+    throw new InvalidNumberOfArguments(args)
   val config = args(0)
   val evolutions = args(1)
-  println(config + " " + evolutions)
-  println("This")
-  println("That")
+
+  val configMap = new HashMap[String, String]()
+  for (line <- Source.fromFile(config).getLines()) {
+    val pairs: Array[String] = line.split('=')
+    if (pairs.length == 2) {
+      /**
+        * TODO: Add appropriate error checks and handling
+        */
+      configMap += (pairs(0).trim.replace("\"", "") -> pairs(1).trim.replace("\"", ""))
+    }
+  }
+
+  lazy val mongoCmd = configMap("mongodb.evolution.mongoCmd")
+  lazy val enabled = configMap("mongodb.evolution.enabled").toBoolean
+  lazy val mongoURI = configMap("mongodb.uri")
+  lazy val applyDownEvolutions = false
+  lazy val compareHashes = true
+  lazy val applyProdEvolutions = false
+
 }
 
-private[mongev] case class Evolution(revision: Int, db_up: String = "", db_down: String = "") {
+private[mongodb_migrations] case class Evolution(revision: Int, db_up: String = "", db_down: String = "") {
   val hash = sha1(db_down.trim + db_up.trim)
 }
 
-private[mongev] object Evolution {
+private[mongodb_migrations] object Evolution {
   implicit val evolutionReads = Json.reads[Evolution]
 }
 
-private[mongev] trait Script {
+private[mongodb_migrations] trait Script {
 
   val evolution: Evolution
 
   val script: String
 }
 
-private[mongev] case class UpScript(evolution: Evolution, script: String) extends Script
+private[mongodb_migrations] case class UpScript(evolution: Evolution, script: String) extends Script
 
-private[mongev] case class DownScript(evolution: Evolution, script: String) extends Script
+private[mongodb_migrations] case class DownScript(evolution: Evolution, script: String) extends Script
 
-private[mongev] trait MongevLogger {
-  val logger = Logger("mongev")
+private[mongodb_migrations] trait MongevLogger {
+  val logger = Logger("mongodb_migrations")
 }
 
-private[mongev] trait EvolutionHelperScripts {
+private[mongodb_migrations] trait EvolutionHelperScripts {
 
   def evolutionDBName = "play_evolutions"
 
@@ -121,7 +152,7 @@ private[mongev] trait EvolutionHelperScripts {
     """.stripMargin
 }
 
-private[mongev] trait MongoScriptExecutor extends MongevLogger {
+private[mongodb_migrations] trait MongoScriptExecutor extends MongevLogger {
 
   import scala.sys.process._
 
@@ -601,4 +632,15 @@ case class InvalidDatabaseEvolutionScript(script: String, exitCode: Int, error: 
       <span>Try to fix the issue!</span>
 
   }.mkString
+}
+
+case class InvalidNumberOfArguments(args: Array[String]) extends Exception {
+  val numArgs = args.length
+  s"""
+     |Incorrect number of arguments.
+     |Expected: 2
+     |Given: $numArgs
+     |args(0): File path for the database configuration file.
+     |args(1): Folder path for the evolution JavaScript files.
+   """.stripMargin
 }

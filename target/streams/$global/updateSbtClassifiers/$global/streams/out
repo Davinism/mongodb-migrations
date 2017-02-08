@@ -58,6 +58,7 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)]
 [info] Resolving org.scala-lang#scala-reflect;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] no default cache defined: set to /Users/dkim/.ivy2/cache
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4
 [debug] 	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-reflect;2.10.4
@@ -3393,9 +3394,9 @@
 [debug] 	[NOT REQUIRED] org.jboss.interceptor#jboss-interceptor-api;1.1!jboss-interceptor-api.jar
 [debug] 	[NOT REQUIRED] jfree#jcommon;1.0.12!jcommon.jar
 [debug] 	[NOT REQUIRED] jfree#jfreechart;1.0.8a!jfreechart.jar
-[debug] :: resolution report :: resolve 760ms :: artifacts dl 27ms
+[debug] :: resolution report :: resolve 1405ms :: artifacts dl 71ms
 [debug] 	report for default#mongodb-migrations$sbt_2.11;1.0 default produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations$sbt_2.11-default.xml
-[debug] 	resolve done (760ms resolve - 27ms download)
+[debug] 	resolve done (1405ms resolve - 71ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#mongodb-migrations$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -4500,6 +4501,6 @@
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-simple;1.7.12!slf4j-simple.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#npm_2.10;1.1.1!npm_2.10.jar(src)
-[debug] :: resolution report :: resolve 187ms :: artifacts dl 26ms
+[debug] :: resolution report :: resolve 283ms :: artifacts dl 35ms
 [debug] 	report for default#mongodb-migrations$sources_2.11;1.0 default produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations$sources_2.11-default.xml
-[debug] 	resolve done (187ms resolve - 26ms download)
+[debug] 	resolve done (283ms resolve - 35ms download)

@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170207181619"/>
+		date="20170208112241"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-specs2_2.11">
 			<revision name="2.4.6" status="release" pubdate="20151214024630" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="40">
@@ -30,11 +30,11 @@
 				<metadata-artifact status="no" details="" size="3873" time="0" location="/Users/dkim/.ivy2/cache/com.typesafe.play/play-test_2.11/ivy-2.4.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/play-test_2.11/2.4.6/play-test_2.11-2.4.6.pom"/>
 				<caller organisation="default" name="mongodb-migrations$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="play-test_2.11" type="jar" ext="jar" status="no" details="" size="144868" time="0" location="/Users/dkim/.ivy2/cache/com.typesafe.play/play-test_2.11/jars/play-test_2.11-2.4.6.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play-test_2.11/2.4.6/play-test_2.11-2.4.6.jar"/>
-					</artifact>
 					<artifact name="play-test_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18796" time="0" location="/Users/dkim/.ivy2/cache/com.typesafe.play/play-test_2.11/srcs/play-test_2.11-2.4.6-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play-test_2.11/2.4.6/play-test_2.11-2.4.6-sources.jar"/>
+					</artifact>
+					<artifact name="play-test_2.11" type="jar" ext="jar" status="no" details="" size="144868" time="0" location="/Users/dkim/.ivy2/cache/com.typesafe.play/play-test_2.11/jars/play-test_2.11-2.4.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play-test_2.11/2.4.6/play-test_2.11-2.4.6.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1341,11 +1341,11 @@
 				<metadata-artifact status="no" details="" size="2531" time="0" location="/Users/dkim/.ivy2/cache/org.scala-stm/scala-stm_2.11/ivy-0.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.pom"/>
 				<caller organisation="default" name="mongodb-migrations$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scala-stm_2.11" type="jar" ext="jar" status="no" details="" size="630306" time="0" location="/Users/dkim/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar"/>
-					</artifact>
 					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116149" time="0" location="/Users/dkim/.ivy2/cache/org.scala-stm/scala-stm_2.11/srcs/scala-stm_2.11-0.7-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-sources.jar"/>
+					</artifact>
+					<artifact name="scala-stm_2.11" type="jar" ext="jar" status="no" details="" size="630306" time="0" location="/Users/dkim/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
