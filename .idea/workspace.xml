@@ -73,7 +73,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Main.scala" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Main.scala" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="960">
@@ -81,6 +81,16 @@
                   <folding>
                     <element signature="e#41#57#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="384">
+                  <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -129,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/main/scala-2.11/Main.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/Main.scala" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -755,12 +766,12 @@
       <workItem from="1486516696387" duration="2442000" />
       <workItem from="1486519159308" duration="1127000" />
       <workItem from="1486520317993" duration="14000" />
-      <workItem from="1486576367597" duration="13059000" />
+      <workItem from="1486576367597" duration="13423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36304000" />
+    <option name="totallyTimeSpent" value="36668000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1213,6 +1224,14 @@
           <folding>
             <element signature="e#41#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
