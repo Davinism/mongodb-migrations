@@ -4,7 +4,7 @@
 		module="mongodb-migrations$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170208112241"
+		publication="20170213135150"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -143,6 +143,21 @@
 		</dependency>
 		<dependency org="com.google.inject.extensions" name="guice-assistedinject" rev="4.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="guice-assistedinject" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.reactivemongo" name="reactivemongo_2.11" rev="0.11.14" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="reactivemongo_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.reactivemongo" name="reactivemongo-bson-macros_2.11" rev="0.11.14" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="reactivemongo-bson-macros_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.reactivemongo" name="reactivemongo-bson_2.11" rev="0.11.14" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="reactivemongo-bson_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.reactivemongo" name="reactivemongo-shaded" rev="0.11.14" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="reactivemongo-shaded" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.logging.log4j" name="log4j-api" rev="2.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="log4j-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-specs2_2.11" rev="2.4.6" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="play-specs2_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>

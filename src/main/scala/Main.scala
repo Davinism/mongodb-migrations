@@ -15,7 +15,15 @@ import org.slf4j.LoggerFactory
 import java.nio.file.Files
 import javax.inject.Inject
 
+import reactivemongo.api.{MongoConnection, MongoDriver}
+import reactivemongo.bson.BSONDocument
+import reactivemongo.api.collections.bson.BSONCollection
+import reactivemongo.api.commands.WriteResult
+
 import scala.collection.mutable.HashMap
+import scala.concurrent.Future
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.util.Try
 
 class Main(config: String, evolutions: String) {
   def getConfig(): String =
@@ -49,10 +57,17 @@ object Main extends App {
   lazy val mongoCmd = configMap("mongodb.evolution.mongoCmd")
   lazy val enabled = configMap("mongodb.evolution.enabled").toBoolean
   lazy val mongoURI = configMap("mongodb.uri")
+  lazy val dbName = configMap("mongodb.db")
   lazy val applyDownEvolutions = false
   lazy val compareHashes = true
   lazy val applyProdEvolutions = false
 
+  val driver1 = new MongoDriver
+  val connection = driver1.connection(List("localhost"))
+
+  val mongoEvolution = new MongevScriptProcessor(mongoCmd, enabled, true, true, true, true)
+  mongoEvolution.onStart()
+  println("Here we are with the changes.")
 }
 
 private[mongodb_migrations] case class Evolution(revision: Int, db_up: String = "", db_down: String = "") {
@@ -220,13 +235,13 @@ private[mongodb_migrations] trait MongoScriptExecutor extends MongevLogger {
 trait Evolutions extends MongoScriptExecutor with EvolutionHelperScripts with MongevLogger {
   def compareHashes: Boolean
 
-  def applyFor(path: java.io.File = new java.io.File(".")) {
-    Play.current.plugin[MongevPlugin] map {
-      plugin =>
-        val script = evolutionScript(path, plugin.getClass.getClassLoader)
-        applyScript(script)
-    }
-  }
+//  def applyFor(path: java.io.File = new java.io.File(".")) {
+//    Play.current.plugin[MongevPlugin] map {
+//      plugin =>
+//        val script = evolutionScript(path, plugin.getClass.getClassLoader)
+//        applyScript(script)
+//    }
+//  }
 
   def updateEvolutionScript(revision: Int = 1, comment: String = "Generated", ups: String, downs: String)(implicit application: Application) {
 
@@ -341,8 +356,8 @@ trait Evolutions extends MongoScriptExecutor with EvolutionHelperScripts with Mo
     if (script.exists(_.isInstanceOf[DownScript])) hasDownWarning + txt else txt
   }
 
-  def evolutionScript(path: File, applicationClassloader: ClassLoader): Seq[Product with Serializable with Script] = {
-    val application = applicationEvolutions(path, applicationClassloader)
+  def evolutionScript(path: File): Seq[Product with Serializable with Script] = {
+    val application = applicationEvolutions(path)
     logger.debug("application evolutions: " + application.map(_.revision).mkString(" "))
 
     Option(application).filterNot(_.isEmpty).map {
@@ -388,7 +403,7 @@ trait Evolutions extends MongoScriptExecutor with EvolutionHelperScripts with Mo
 
   private def evolutionsResourceName(revision: Int): String = s"evolutions/$revision.js"
 
-  def applicationEvolutions(path: File, applicationClassloader: ClassLoader): Seq[Evolution] = {
+  def applicationEvolutions(path: File): Seq[Evolution] = {
 
     val upsMarker = """^//.*!Ups.*$""".r
     val downsMarker = """^//.*!Downs.*$""".r
@@ -412,7 +427,7 @@ trait Evolutions extends MongoScriptExecutor with EvolutionHelperScripts with Mo
     Collections.unfoldLeft(1) {
       revision =>
         Option(new File(path, evolutionsFilename(revision))).filter(_.exists).map(new FileInputStream(_)).orElse {
-          Option(applicationClassloader.getResourceAsStream(evolutionsResourceName(revision)))
+          Option(new FileInputStream(evolutionsResourceName(revision)))
         }.map {
           stream =>
             (revision + 1, (revision, Source.fromInputStream(stream)("UTF-8").mkString))
@@ -442,21 +457,16 @@ trait Evolutions extends MongoScriptExecutor with EvolutionHelperScripts with Mo
 
 }
 
-class MongevPlugin @Inject() (implicit app: Application) extends Plugin with HandleWebCommandSupport with MongevLogger with Evolutions {
-
-  lazy val mongoCmd = app.configuration.getString("mongodb.evolution.mongoCmd").getOrElse(
-    throw new Exception("There is no mongodb.evolution.mongoCmd configuration available. " +
-      "You need to declare informations about your mongo cmd in your configuration. E.g. \"mongo localhost:3232/myApp\""))
-
-  override lazy val enabled = app.configuration.getBoolean("mongodb.evolution.enabled").getOrElse(false)
-
-  lazy val applyDownEvolutions = app.configuration.getBoolean("mongodb.evolution.applyDownEvolutions").getOrElse(false)
-  lazy val compareHashes = app.configuration.getBoolean("mongodb.evolution.compareHashes").getOrElse(true)
-  lazy val applyProdEvolutions = app.configuration.getBoolean("mongodb.evolution.applyProdEvolutions").getOrElse(false)
+class MongevScriptProcessor(mongoCmd: String,
+                            enabled: Boolean,
+                            applyDownEvolutions: Boolean,
+                            compareHashes: Boolean,
+                            applyProdEvolutions: Boolean,
+                            useLocks: Boolean) extends Evolutions with HandleWebCommandSupport with MongevLogger {
 
   override def onStart() {
     withLock {
-      val script = evolutionScript(app.path, app.classloader)
+      val script = evolutionScript(app.path)
       val hasDown = script.exists(_.isInstanceOf[DownScript])
 
       if (!script.isEmpty) {
@@ -489,7 +499,7 @@ class MongevPlugin @Inject() (implicit app: Application) extends Plugin with Han
 
     def unlock() = execute(releaseLock)
 
-    if (app.configuration.getBoolean("mongodb.evolution.useLocks").getOrElse(false)) {
+    if (useLocks) {
       execute(acquireLock) match {
         case Some(o: JsObject) =>
           val lock = (o \ "value" \ "lock").as[Int]
@@ -524,7 +534,7 @@ class MongevPlugin @Inject() (implicit app: Application) extends Plugin with Han
 
       case applyEvolutions() => {
         Some {
-          val script = evolutionScript(app.path, app.classloader)
+          val script = evolutionScript(app.path)
           applyScript(script)
           buildLink.forceReload()
           play.api.mvc.Results.Redirect(redirectUrl)
@@ -558,7 +568,7 @@ object OfflineEvolutions extends MongevLogger {
 
   def applyScript(appPath: File, classloader: ClassLoader) {
     val ev = Evolutions(appPath)
-    val script = ev.evolutionScript(appPath, classloader)
+    val script = ev.evolutionScript(appPath)
     if (!isTest) {
       logger.warn("Applying evolution script for database:\n\n" + ev.toHumanReadableScript(script))
     }
