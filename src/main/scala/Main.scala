@@ -54,20 +54,28 @@ object Main extends App {
     }
   }
 
-  lazy val mongoCmd = configMap("mongodb.evolution.mongoCmd")
-  lazy val enabled = configMap("mongodb.evolution.enabled").toBoolean
-  lazy val mongoURI = configMap("mongodb.uri")
-  lazy val dbName = configMap("mongodb.db")
-  lazy val applyDownEvolutions = false
-  lazy val compareHashes = true
-  lazy val applyProdEvolutions = false
+  val mongoCmdString = configMap("mongodb.evolution.mongoCmd")
+  val enabled = configMap("mongodb.evolution.enabled").toBoolean
+  val mongoURI = configMap("mongodb.uri")
+  val dbName = configMap("mongodb.db")
+  val applyDownEvolutions = false
+  val compareHashesBool = true
+  val applyProdEvolutions = false
+  val useLocks = true
 
   val driver1 = new MongoDriver
   val connection = driver1.connection(List("localhost"))
 
-  val mongoEvolution = new MongevScriptProcessor(mongoCmd, enabled, true, true, true, true)
+  val mongoEvolution = new MongevScriptProcessor(
+    mongoCmdString,
+    enabled,
+    applyDownEvolutions,
+    compareHashesBool,
+    applyProdEvolutions,
+    useLocks,
+    evolutions
+  )
   mongoEvolution.onStart()
-  println("Here we are with the changes.")
 }
 
 private[mongodb_migrations] case class Evolution(revision: Int, db_up: String = "", db_down: String = "") {
@@ -397,11 +405,19 @@ trait Evolutions extends MongoScriptExecutor with EvolutionHelperScripts with Mo
     } getOrElse Nil
   }
 
-  private val evolutionsDirectoryName = "conf/evolutions/"
+  private val evolutionsDirectoryName = "evolutions/"
 
   private def evolutionsFilename(revision: Int): String = evolutionsDirectoryName + revision + ".js"
 
   private def evolutionsResourceName(revision: Int): String = s"evolutions/$revision.js"
+
+  private def gracefulFileInputStream(filePath: String): FileInputStream = {
+    try {
+      new FileInputStream(filePath)
+    } catch {
+      case e: FileNotFoundException => null
+    }
+  }
 
   def applicationEvolutions(path: File): Seq[Evolution] = {
 
@@ -427,7 +443,7 @@ trait Evolutions extends MongoScriptExecutor with EvolutionHelperScripts with Mo
     Collections.unfoldLeft(1) {
       revision =>
         Option(new File(path, evolutionsFilename(revision))).filter(_.exists).map(new FileInputStream(_)).orElse {
-          Option(new FileInputStream(evolutionsResourceName(revision)))
+          Option(gracefulFileInputStream(evolutionsResourceName(revision)))
         }.map {
           stream =>
             (revision + 1, (revision, Source.fromInputStream(stream)("UTF-8").mkString))
@@ -457,40 +473,24 @@ trait Evolutions extends MongoScriptExecutor with EvolutionHelperScripts with Mo
 
 }
 
-class MongevScriptProcessor(mongoCmd: String,
+class MongevScriptProcessor(mongoCmdString: String,
                             enabled: Boolean,
                             applyDownEvolutions: Boolean,
-                            compareHashes: Boolean,
+                            compareHashesBool: Boolean,
                             applyProdEvolutions: Boolean,
-                            useLocks: Boolean) extends Evolutions with HandleWebCommandSupport with MongevLogger {
+                            useLocks: Boolean,
+                            evolutionsPath: String) extends Evolutions with HandleWebCommandSupport with MongevLogger {
 
-  override def onStart() {
+  lazy val compareHashes = compareHashesBool
+  lazy val mongoCmd = mongoCmdString
+
+  def onStart() {
     withLock {
-      val script = evolutionScript(app.path)
+      val script = evolutionScript(new File(evolutionsPath))
       val hasDown = script.exists(_.isInstanceOf[DownScript])
 
       if (!script.isEmpty) {
-        app.mode match {
-          case Mode.Test => applyScript(script)
-          case Mode.Dev => applyScript(script)
-          case Mode.Prod if applyProdEvolutions && (applyDownEvolutions || !hasDown) => applyScript(script)
-          case Mode.Prod if applyProdEvolutions && hasDown => {
-            logger.warn("Your production database needs evolutions, including downs! \n\n" + toHumanReadableScript(script))
-            logger.warn("Run with -Dmongodb.evolution.applyProdEvolutions=true and " +
-              "-Dmongodb.evolution.applyDownEvolutions=true if you want to run them automatically, " +
-              "including downs (be careful, especially if your down evolutions drop existing data)")
-
-            throw InvalidDatabaseRevision(toHumanReadableScript(script))
-          }
-          case Mode.Prod => {
-            logger.warn("Your production database needs evolutions! \n\n" + toHumanReadableScript(script))
-            logger.warn("Run with -Dmongodb.evolution.applyProdEvolutions=true " +
-              "if you want to run them automatically (be careful)")
-
-            throw InvalidDatabaseRevision(toHumanReadableScript(script))
-          }
-          case _ => throw InvalidDatabaseRevision(toHumanReadableScript(script))
-        }
+        applyScript(script)
       }
     }
   }
@@ -534,7 +534,7 @@ class MongevScriptProcessor(mongoCmd: String,
 
       case applyEvolutions() => {
         Some {
-          val script = evolutionScript(app.path)
+          val script = evolutionScript(new File(evolutionsPath))
           applyScript(script)
           buildLink.forceReload()
           play.api.mvc.Results.Redirect(redirectUrl)
