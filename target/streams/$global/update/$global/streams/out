@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#mongodb-migrations_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71b2c043[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6402187a[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
@@ -607,90 +607,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.6->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.6->org.scala-lang#scala-reflect;2.11.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->com.typesafe.play#play_2.11;2.4.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.reactivemongo#reactivemongo_2.11;0.11.14 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.reactivemongo#reactivemongo_2.11;0.11.14 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.reactivemongo#reactivemongo_2.11;0.11.14[0m
-[0m[[0mdebug[0m] [0m	found org.reactivemongo#reactivemongo_2.11;0.11.14 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [compile->master(*)][0m
-[0m[[0minfo[0m] [0mResolving org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14[0m
-[0m[[0mdebug[0m] [0m	found org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [compile->master(*)][0m
-[0m[[0minfo[0m] [0mResolving org.reactivemongo#reactivemongo-bson_2.11;0.11.14 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.reactivemongo#reactivemongo-bson_2.11;0.11.14 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.reactivemongo#reactivemongo-bson_2.11;0.11.14[0m
-[0m[[0mdebug[0m] [0m	found org.reactivemongo#reactivemongo-bson_2.11;0.11.14 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [compile->master(*)][0m
-[0m[[0minfo[0m] [0mResolving org.reactivemongo#reactivemongo-shaded;0.11.14 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.reactivemongo#reactivemongo-shaded;0.11.14 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.reactivemongo#reactivemongo-shaded;0.11.14[0m
-[0m[[0mdebug[0m] [0m	found org.reactivemongo#reactivemongo-shaded;0.11.14 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.10.5.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [compile->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.10.5.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [compile->master(*)][0m
-[0m[[0minfo[0m] [0mResolving org.apache.logging.log4j#log4j-api;2.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-api;2.5[0m
-[0m[[0mdebug[0m] [0m	found org.apache.logging.log4j#log4j-api;2.5 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#mongodb-migrations_2.11;1.0 [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#mongodb-migrations_2.11;1.0 [compile][0m
@@ -1077,64 +993,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.6->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.6->org.scala-lang#scala-reflect;2.11.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->com.typesafe.play#play_2.11;2.4.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.10.5.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.10.5.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#mongodb-migrations_2.11;1.0 [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#mongodb-migrations_2.11;1.0 [runtime][0m
@@ -1522,64 +1380,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.6->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.6->org.scala-lang#scala-reflect;2.11.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->com.typesafe.play#play_2.11;2.4.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.10.5.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.10.5.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->com.typesafe.play#play-specs2_2.11;2.4.6 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-specs2_2.11;2.4.6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-specs2_2.11;2.4.6 {test=[default(compile)]}[0m
@@ -3171,64 +2971,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.6->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.6->org.scala-lang#scala-reflect;2.11.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->com.typesafe.play#play_2.11;2.4.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.10.5.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.10.5.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#mongodb-migrations_2.11;1.0 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#mongodb-migrations_2.11;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -3618,64 +3360,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.6->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.6->org.scala-lang#scala-reflect;2.11.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->com.typesafe.play#play_2.11;2.4.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.10.5.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.10.5.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#mongodb-migrations_2.11;1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#mongodb-migrations_2.11;1.0 [test-internal][0m
@@ -4065,64 +3749,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.6->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.6->org.scala-lang#scala-reflect;2.11.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->com.typesafe.play#play_2.11;2.4.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.10.5.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14->org.reactivemongo#reactivemongo-bson_2.11;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.11.14->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.reactivemongo#reactivemongo-shaded;0.11.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.10.5.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.3.10 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->com.typesafe.play#play-iteratees_2.11;2.4.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->commons-codec#commons-codec;1.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.11.14->org.apache.logging.log4j#log4j-api;2.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.11.14 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->com.typesafe.play#play-specs2_2.11;2.4.6 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->com.typesafe.play#play-specs2_2.11;2.4.6 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#mongodb-migrations_2.11;1.0->com.typesafe.play#play-specs2_2.11;2.4.6 [test->compile][0m
@@ -5165,7 +4791,6 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play_2.11;2.4.6!play_2.11.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.reactivemongo#reactivemongo_2.11;0.11.14!reactivemongo_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#build-link;2.4.6!build-link.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-iteratees_2.11;2.4.6!play-iteratees_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-json_2.11;2.4.6!play-json_2.11.jar[0m
@@ -5203,10 +4828,6 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;16.0.1!guava.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.14!reactivemongo-bson-macros_2.11.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.reactivemongo#reactivemongo-shaded;0.11.14!reactivemongo-shaded.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.5!log4j-api.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.reactivemongo#reactivemongo-bson_2.11;0.11.14!reactivemongo-bson_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-specs2_2.11;2.4.6!play-specs2_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-test_2.11;2.4.6!play-test_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2-core_2.11;3.6!specs2-core_2.11.jar[0m
@@ -5271,7 +4892,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 777ms :: artifacts dl 23ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 700ms :: artifacts dl 23ms[0m
 [0m[[0mdebug[0m] [0m	report for default#mongodb-migrations_2.11;1.0 compile produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#mongodb-migrations_2.11;1.0 runtime produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#mongodb-migrations_2.11;1.0 test produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations_2.11-test.xml[0m
@@ -5285,5 +4906,5 @@
 [0m[[0mdebug[0m] [0m	report for default#mongodb-migrations_2.11;1.0 docs produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#mongodb-migrations_2.11;1.0 pom produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#mongodb-migrations_2.11;1.0 scala-tool produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (777ms resolve - 23ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (700ms resolve - 23ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

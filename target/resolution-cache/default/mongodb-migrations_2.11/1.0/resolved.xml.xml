@@ -4,7 +4,7 @@
 		module="mongodb-migrations_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170213135448"
+		publication="20170215115428"
 	>
 		<description>
 		mongodb-migrations
@@ -37,6 +37,5 @@
 		<dependency org="com.typesafe.play" name="play-specs2_2.11" rev="2.4.6" conf="test->default(compile)"/>
 		<dependency org="javax.inject" name="javax.inject" rev="1" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play_2.11" rev="2.4.6" conf="compile->default(compile)"/>
-		<dependency org="org.reactivemongo" name="reactivemongo_2.11" rev="0.11.14" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -1,29 +1,18 @@
 package com.davinkim.mongodb_migrations
 
 import java.io._
-
-import play.api._
-import play.api.libs.Codecs._
-import play.api.libs.Collections
-
-import scala.io.Source
-import scala.util.control.NonFatal
-import play.core.HandleWebCommandSupport
-import play.api.libs.json._
-import play.api.libs.Files.TemporaryFile
-import org.slf4j.LoggerFactory
 import java.nio.file.Files
-import javax.inject.Inject
 
-import reactivemongo.api.{MongoConnection, MongoDriver}
-import reactivemongo.bson.BSONDocument
-import reactivemongo.api.collections.bson.BSONCollection
-import reactivemongo.api.commands.WriteResult
+import com.davinkim.Collections.Collections
+import com.davinkim.Exceptions.MigrationException
+import com.davinkim.Logger.Logger
+import com.davinkim.json._
+//import play.api.libs.json._
+import org.apache.commons.codec.digest.DigestUtils
 
 import scala.collection.mutable.HashMap
-import scala.concurrent.Future
-import scala.concurrent.ExecutionContext.Implicits.global
-import scala.util.Try
+import scala.io.Source
+import scala.util.control.NonFatal
 
 class Main(config: String, evolutions: String) {
   def getConfig(): String =
@@ -63,9 +52,6 @@ object Main extends App {
   val applyProdEvolutions = false
   val useLocks = true
 
-  val driver1 = new MongoDriver
-  val connection = driver1.connection(List("localhost"))
-
   val mongoEvolution = new MongevScriptProcessor(
     mongoCmdString,
     enabled,
@@ -79,11 +65,11 @@ object Main extends App {
 }
 
 private[mongodb_migrations] case class Evolution(revision: Int, db_up: String = "", db_down: String = "") {
-  val hash = sha1(db_down.trim + db_up.trim)
+  val hash = DigestUtils.sha1Hex(db_down.trim + db_up.trim)
 }
 
 private[mongodb_migrations] object Evolution {
-  implicit val evolutionReads = Json.reads[Evolution]
+  implicit val evolutionReads: Any = Json.reads[Evolution]
 }
 
 private[mongodb_migrations] trait Script {
@@ -103,9 +89,9 @@ private[mongodb_migrations] trait MongevLogger {
 
 private[mongodb_migrations] trait EvolutionHelperScripts {
 
-  def evolutionDBName = "play_evolutions"
+  def evolutionDBName = "mongo_evolutions"
 
-  def lockDBName = "play_evolutions_lock"
+  def lockDBName = "mongo_evolutions_lock"
 
   val allEvolutionsQuery = evolutionsQuery("")
 
@@ -243,18 +229,10 @@ private[mongodb_migrations] trait MongoScriptExecutor extends MongevLogger {
 trait Evolutions extends MongoScriptExecutor with EvolutionHelperScripts with MongevLogger {
   def compareHashes: Boolean
 
-//  def applyFor(path: java.io.File = new java.io.File(".")) {
-//    Play.current.plugin[MongevPlugin] map {
-//      plugin =>
-//        val script = evolutionScript(path, plugin.getClass.getClassLoader)
-//        applyScript(script)
-//    }
-//  }
+  def updateEvolutionScript(revision: Int = 1, comment: String = "Generated", ups: String, downs: String) {
 
-  def updateEvolutionScript(revision: Int = 1, comment: String = "Generated", ups: String, downs: String)(implicit application: Application) {
-
-    val evolutions = application.path.toPath.resolve(evolutionsFilename(revision))
-    Files.createDirectory(application.path.toPath.resolve(evolutionsDirectoryName))
+    val evolutions = getCurrentDirectory.toPath.resolve(evolutionsFilename(revision))
+    Files.createDirectory(getCurrentDirectory.toPath.resolve(evolutionsDirectoryName))
 
     val content = Option(evolutions).filter(_.toFile.exists()).map(p => new String(Files.readAllBytes(p))).getOrElse("")
 
@@ -271,6 +249,8 @@ trait Evolutions extends MongoScriptExecutor with EvolutionHelperScripts with Mo
       Files.write(evolutions, evolutionContent.getBytes)
     }
   }
+
+  def getCurrentDirectory = new File(".").getCanonicalFile
 
   def resolve(revision: Int) {
     execute(setAsApplied(revision, "applying_up"))
@@ -479,7 +459,7 @@ class MongevScriptProcessor(mongoCmdString: String,
                             compareHashesBool: Boolean,
                             applyProdEvolutions: Boolean,
                             useLocks: Boolean,
-                            evolutionsPath: String) extends Evolutions with HandleWebCommandSupport with MongevLogger {
+                            evolutionsPath: String) extends Evolutions with MongevLogger {
 
   lazy val compareHashes = compareHashesBool
   lazy val mongoCmd = mongoCmdString
@@ -523,69 +503,9 @@ class MongevScriptProcessor(mongoCmdString: String,
       block
   }
 
-  def handleWebCommand(request: play.api.mvc.RequestHeader, buildLink: play.core.BuildLink, path: java.io.File): Option[play.api.mvc.Result] = {
-
-    val applyEvolutions = """/@evolutions/apply""".r
-    val resolveEvolutions = """/@evolutions/resolve/([0-9]+)""".r
-
-    lazy val redirectUrl = request.queryString.get("redirect").filterNot(_.isEmpty).map(_(0)).getOrElse("/")
-
-    request.path match {
-
-      case applyEvolutions() => {
-        Some {
-          val script = evolutionScript(new File(evolutionsPath))
-          applyScript(script)
-          buildLink.forceReload()
-          play.api.mvc.Results.Redirect(redirectUrl)
-        }
-      }
-
-      case resolveEvolutions(rev) => {
-        Some {
-          resolve(rev.toInt)
-          buildLink.forceReload()
-          play.api.mvc.Results.Redirect(redirectUrl)
-        }
-      }
-
-      case _ => None
-
-    }
-
-  }
-
 }
 
-object OfflineEvolutions extends MongevLogger {
-
-  def Evolutions(appPath: File) = new Evolutions {
-    val compareHashes = false
-    def mongoCmd = Configuration.load(appPath).getString("mongodb.evolution.mongoCmd").get
-  }
-
-  private def isTest: Boolean = Play.maybeApplication.exists(_.mode == Mode.Test)
-
-  def applyScript(appPath: File, classloader: ClassLoader) {
-    val ev = Evolutions(appPath)
-    val script = ev.evolutionScript(appPath)
-    if (!isTest) {
-      logger.warn("Applying evolution script for database:\n\n" + ev.toHumanReadableScript(script))
-    }
-    ev.applyScript(script)
-  }
-
-  def resolve(appPath: File, revision: Int) {
-    val ev = Evolutions(appPath)
-    if (!isTest) {
-      logger.warn("Resolving evolution [" + revision + "] for database")
-    }
-    ev.resolve(revision)
-  }
-
-}
-
-case class InvalidDatabaseRevision(script: String) extends PlayException.RichDescription(
+case class InvalidDatabaseRevision(script: String) extends MigrationException.RichDescription(
   "Database needs evolution!",
   "A MongoDB script need to be run on your database.") {
 
@@ -605,7 +525,7 @@ case class InvalidDatabaseRevision(script: String) extends PlayException.RichDes
   }.mkString
 }
 
-case class InconsistentDatabase(script: String, error: String, rev: Int) extends PlayException.RichDescription(
+case class InconsistentDatabase(script: String, error: String, rev: Int) extends MigrationException.RichDescription(
   "Database is in an inconsistent state!",
   "An evolution has not been applied properly. Please check the problem and resolve it manually before marking it as resolved.") {
 
@@ -626,7 +546,7 @@ case class InconsistentDatabase(script: String, error: String, rev: Int) extends
 
 }
 
-case class InvalidDatabaseEvolutionScript(script: String, exitCode: Int, error: String) extends PlayException.RichDescription(
+case class InvalidDatabaseEvolutionScript(script: String, exitCode: Int, error: String) extends MigrationException.RichDescription(
   "Evolution failed!",
   s"Tried to run an evolution, but got the following return value: $exitCode") {
 

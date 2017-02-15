@@ -54,7 +54,6 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->runtime(*)]
-[debug] no default cache defined: set to /Users/dkim/.ivy2/cache
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)]
 [info] Resolving org.scala-lang#scala-reflect;2.10.4 ...
@@ -3394,9 +3393,9 @@
 [debug] 	[NOT REQUIRED] org.jboss.interceptor#jboss-interceptor-api;1.1!jboss-interceptor-api.jar
 [debug] 	[NOT REQUIRED] jfree#jcommon;1.0.12!jcommon.jar
 [debug] 	[NOT REQUIRED] jfree#jfreechart;1.0.8a!jfreechart.jar
-[debug] :: resolution report :: resolve 603ms :: artifacts dl 24ms
+[debug] :: resolution report :: resolve 831ms :: artifacts dl 33ms
 [debug] 	report for default#mongodb-migrations$sbt_2.11;1.0 default produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations$sbt_2.11-default.xml
-[debug] 	resolve done (603ms resolve - 24ms download)
+[debug] 	resolve done (831ms resolve - 33ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#mongodb-migrations$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -4501,6 +4500,6 @@
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-simple;1.7.12!slf4j-simple.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#npm_2.10;1.1.1!npm_2.10.jar(src)
-[debug] :: resolution report :: resolve 145ms :: artifacts dl 22ms
+[debug] :: resolution report :: resolve 212ms :: artifacts dl 46ms
 [debug] 	report for default#mongodb-migrations$sources_2.11;1.0 default produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations$sources_2.11-default.xml
-[debug] 	resolve done (145ms resolve - 22ms download)
+[debug] 	resolve done (212ms resolve - 46ms download)

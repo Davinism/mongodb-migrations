@@ -7,82 +7,8 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170213135150"/>
+		date="20170215113629"/>
 	<dependencies>
-		<module organisation="org.reactivemongo" name="reactivemongo_2.11">
-			<revision name="0.11.14" status="release" pubdate="20160626080518" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://reactivemongo.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="40">
-				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="4144" time="0" location="/Users/dkim/.ivy2/cache/org.reactivemongo/reactivemongo_2.11/ivy-0.11.14.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo_2.11/0.11.14/reactivemongo_2.11-0.11.14.pom"/>
-				<caller organisation="default" name="mongodb-migrations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.11.14" rev-constraint-default="0.11.14" rev-constraint-dynamic="0.11.14" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="reactivemongo_2.11" type="jar" ext="jar" status="no" details="" size="2784559" time="0" location="/Users/dkim/.ivy2/cache/org.reactivemongo/reactivemongo_2.11/jars/reactivemongo_2.11-0.11.14.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo_2.11/0.11.14/reactivemongo_2.11-0.11.14.jar"/>
-					</artifact>
-					<artifact name="reactivemongo_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="123473" time="0" location="/Users/dkim/.ivy2/cache/org.reactivemongo/reactivemongo_2.11/srcs/reactivemongo_2.11-0.11.14-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivemongo/reactivemongo_2.11/0.11.14/reactivemongo_2.11-0.11.14-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.logging.log4j" name="log4j-api">
-			<revision name="2.5" status="release" pubdate="20151206161903" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="44">
-				<metadata-artifact status="no" details="" size="30377" time="0" location="/Users/dkim/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.5/log4j-api-2.5.pom"/>
-				<caller organisation="default" name="mongodb-migrations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="log4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="141088" time="0" location="/Users/dkim/.ivy2/cache/org.apache.logging.log4j/log4j-api/srcs/log4j-api-2.5-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.5/log4j-api-2.5-sources.jar"/>
-					</artifact>
-					<artifact name="log4j-api" type="jar" ext="jar" status="no" details="" size="146761" time="0" location="/Users/dkim/.ivy2/cache/org.apache.logging.log4j/log4j-api/jars/log4j-api-2.5.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.5/log4j-api-2.5.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.reactivemongo" name="reactivemongo-shaded">
-			<revision name="0.11.14" status="release" pubdate="20160626080234" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://reactivemongo.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="43">
-				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="2529" time="0" location="/Users/dkim/.ivy2/cache/org.reactivemongo/reactivemongo-shaded/ivy-0.11.14.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-shaded/0.11.14/reactivemongo-shaded-0.11.14.pom"/>
-				<caller organisation="default" name="mongodb-migrations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.11.14" rev-constraint-default="0.11.14" rev-constraint-dynamic="0.11.14" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="reactivemongo-shaded" type="jar" ext="jar" status="no" details="" size="1331099" time="0" location="/Users/dkim/.ivy2/cache/org.reactivemongo/reactivemongo-shaded/jars/reactivemongo-shaded-0.11.14.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-shaded/0.11.14/reactivemongo-shaded-0.11.14.jar"/>
-					</artifact>
-					<artifact name="reactivemongo-shaded" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="261" time="0" location="/Users/dkim/.ivy2/cache/org.reactivemongo/reactivemongo-shaded/srcs/reactivemongo-shaded-0.11.14-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-shaded/0.11.14/reactivemongo-shaded-0.11.14-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.reactivemongo" name="reactivemongo-bson-macros_2.11">
-			<revision name="0.11.14" status="release" pubdate="20160626080551" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://reactivemongo.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="41">
-				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="2979" time="0" location="/Users/dkim/.ivy2/cache/org.reactivemongo/reactivemongo-bson-macros_2.11/ivy-0.11.14.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-macros_2.11/0.11.14/reactivemongo-bson-macros_2.11-0.11.14.pom"/>
-				<caller organisation="default" name="mongodb-migrations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.11.14" rev-constraint-default="0.11.14" rev-constraint-dynamic="0.11.14" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="reactivemongo-bson-macros_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6805" time="0" location="/Users/dkim/.ivy2/cache/org.reactivemongo/reactivemongo-bson-macros_2.11/srcs/reactivemongo-bson-macros_2.11-0.11.14-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-macros_2.11/0.11.14/reactivemongo-bson-macros_2.11-0.11.14-sources.jar"/>
-					</artifact>
-					<artifact name="reactivemongo-bson-macros_2.11" type="jar" ext="jar" status="no" details="" size="156978" time="0" location="/Users/dkim/.ivy2/cache/org.reactivemongo/reactivemongo-bson-macros_2.11/jars/reactivemongo-bson-macros_2.11-0.11.14.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-macros_2.11/0.11.14/reactivemongo-bson-macros_2.11-0.11.14.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.reactivemongo" name="reactivemongo-bson_2.11">
-			<revision name="0.11.14" status="release" pubdate="20160626080438" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://reactivemongo.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
-				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="2657" time="0" location="/Users/dkim/.ivy2/cache/org.reactivemongo/reactivemongo-bson_2.11/ivy-0.11.14.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson_2.11/0.11.14/reactivemongo-bson_2.11-0.11.14.pom"/>
-				<caller organisation="default" name="mongodb-migrations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.11.14" rev-constraint-default="0.11.14" rev-constraint-dynamic="0.11.14" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="reactivemongo-bson_2.11" type="jar" ext="jar" status="no" details="" size="399708" time="0" location="/Users/dkim/.ivy2/cache/org.reactivemongo/reactivemongo-bson_2.11/jars/reactivemongo-bson_2.11-0.11.14.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson_2.11/0.11.14/reactivemongo-bson_2.11-0.11.14.jar"/>
-					</artifact>
-					<artifact name="reactivemongo-bson_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21267" time="0" location="/Users/dkim/.ivy2/cache/org.reactivemongo/reactivemongo-bson_2.11/srcs/reactivemongo-bson_2.11-0.11.14-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson_2.11/0.11.14/reactivemongo-bson_2.11-0.11.14-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="com.typesafe.play" name="play_2.11">
 			<revision name="2.4.6" status="release" pubdate="20151214011154" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
@@ -590,11 +516,11 @@
 				<metadata-artifact status="no" details="" size="2531" time="0" location="/Users/dkim/.ivy2/cache/org.scala-stm/scala-stm_2.11/ivy-0.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.pom"/>
 				<caller organisation="default" name="mongodb-migrations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116149" time="0" location="/Users/dkim/.ivy2/cache/org.scala-stm/scala-stm_2.11/srcs/scala-stm_2.11-0.7-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-sources.jar"/>
-					</artifact>
 					<artifact name="scala-stm_2.11" type="jar" ext="jar" status="no" details="" size="630306" time="0" location="/Users/dkim/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar"/>
+					</artifact>
+					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116149" time="0" location="/Users/dkim/.ivy2/cache/org.scala-stm/scala-stm_2.11/srcs/scala-stm_2.11-0.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
