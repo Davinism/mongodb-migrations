@@ -4,7 +4,7 @@
 		module="mongodb-migrations_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170215115428"
+		publication="20170216174311"
 	>
 		<description>
 		mongodb-migrations
@@ -36,6 +36,18 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-specs2_2.11" rev="2.4.6" conf="test->default(compile)"/>
 		<dependency org="javax.inject" name="javax.inject" rev="1" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play_2.11" rev="2.4.6" conf="compile->default(compile)"/>
+		<dependency org="commons-codec" name="commons-codec" rev="1.10" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.5.4" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.11.6" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.5.4" conf="compile->default(compile)"/>
+		<dependency org="org.scala-stm" name="scala-stm_2.11" rev="0.7" conf="compile->default(compile)"/>
+		<dependency org="org.scalaz" name="scalaz-concurrent_2.11" rev="7.1.1" conf="compile->default(compile)"/>
+		<dependency org="org.joda" name="joda-convert" rev="1.7" conf="compile->default(compile)"/>
+		<dependency org="joda-time" name="joda-time" rev="2.8.1" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.12" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="jcl-over-slf4j" rev="1.7.12" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="jul-to-slf4j" rev="1.7.12" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-simple" rev="1.7.12" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-json_2.11" rev="2.4.6" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

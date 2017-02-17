@@ -6,8 +6,8 @@ import java.nio.file.Files
 import com.davinkim.Collections.Collections
 import com.davinkim.Exceptions.MigrationException
 import com.davinkim.Logger.Logger
-import com.davinkim.json._
-//import play.api.libs.json._
+//import com.davinkim.json._
+import play.api.libs.json._
 import org.apache.commons.codec.digest.DigestUtils
 
 import scala.collection.mutable.HashMap
@@ -69,7 +69,9 @@ private[mongodb_migrations] case class Evolution(revision: Int, db_up: String = 
 }
 
 private[mongodb_migrations] object Evolution {
-  implicit val evolutionReads: Any = Json.reads[Evolution]
+  import scala.language.implicitConversions
+
+  implicit val evolutionReads = Json.reads[Evolution]
 }
 
 private[mongodb_migrations] trait Script {
