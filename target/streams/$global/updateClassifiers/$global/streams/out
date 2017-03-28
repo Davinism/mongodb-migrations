@@ -10,7 +10,7 @@
 [debug] == resolving dependencies for default#mongodb-migrations$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f81cc52
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45fad982
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -19,7 +19,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->default(compile)]
 [info] Resolving javax.inject#javax.inject;1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e88ac03
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65ab6c56
 [debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
 [debug] 	found javax.inject#javax.inject;1 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->runtime]
@@ -27,7 +27,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26af100a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@511576c
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.10
 [debug] 	found commons-codec#commons-codec;1.10 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->runtime]
@@ -35,7 +35,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.5.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11d4accd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ec6bb81
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.5.4
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.5.4 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->runtime]
@@ -43,7 +43,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57d9b72
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22b37173
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6
 [debug] 	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain
 [debug] 	[2.11.6] org.scala-lang#scala-reflect;2.11.6
@@ -52,7 +52,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.5.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e044f7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24ceee27
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.5.4
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.5.4 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.4 [compile->runtime]
@@ -60,7 +60,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.4 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51e5af69
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70f4f46
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
@@ -68,7 +68,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scalaz#scalaz-concurrent_2.11;7.1.1 [compile->default(compile)]
 [info] Resolving org.scalaz#scalaz-concurrent_2.11;7.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5664719c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21dee66c
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.11;7.1.1
 [debug] 	found org.scalaz#scalaz-concurrent_2.11;7.1.1 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scalaz#scalaz-concurrent_2.11;7.1.1 [compile->runtime]
@@ -76,7 +76,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scalaz#scalaz-concurrent_2.11;7.1.1 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scalaz#scalaz-core_2.11;7.1.1 [compile->default(compile)]
 [info] Resolving org.scalaz#scalaz-core_2.11;7.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@426c2ab7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16dad2f8
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.11;7.1.1
 [debug] 	found org.scalaz#scalaz-core_2.11;7.1.1 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scalaz#scalaz-core_2.11;7.1.1 [compile->runtime]
@@ -84,7 +84,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scalaz#scalaz-core_2.11;7.1.1 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d2aa53a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26bb40db
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->runtime]
@@ -92,7 +92,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22d5baff
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b34f227
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
@@ -100,7 +100,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scalaz#scalaz-effect_2.11;7.1.1 [compile->default(compile)]
 [info] Resolving org.scalaz#scalaz-effect_2.11;7.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c26619f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16addd43
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.11;7.1.1
 [debug] 	found org.scalaz#scalaz-effect_2.11;7.1.1 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scalaz#scalaz-effect_2.11;7.1.1 [compile->runtime]
@@ -108,7 +108,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scalaz#scalaz-effect_2.11;7.1.1 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.joda#joda-convert;1.7 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a12e7ff
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c2e5a21
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.7
 [debug] 	found org.joda#joda-convert;1.7 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.joda#joda-convert;1.7 [compile->runtime]
@@ -116,7 +116,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.joda#joda-convert;1.7 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->joda-time#joda-time;2.8.1 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.8.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@95c4188
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@495a025e
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.8.1
 [debug] 	found joda-time#joda-time;2.8.1 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->joda-time#joda-time;2.8.1 [compile->runtime]
@@ -124,7 +124,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->joda-time#joda-time;2.8.1 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cf42325
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ecbc4b6
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.12
 [debug] 	found org.slf4j#slf4j-api;1.7.12 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [compile->runtime]
@@ -132,7 +132,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e6d7a33
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ad58971
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.12
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.12 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.12 [compile->runtime]
@@ -140,7 +140,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.12 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12671a72
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@793cf422
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.12
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.12 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.12 [compile->runtime]
@@ -148,7 +148,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.12 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.slf4j#slf4j-simple;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-simple;1.7.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23c4571b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d0f0de7
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-simple;1.7.12
 [debug] 	found org.slf4j#slf4j-simple;1.7.12 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.slf4j#slf4j-simple;1.7.12 [compile->runtime]
@@ -156,7 +156,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.slf4j#slf4j-simple;1.7.12 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6940c813
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@795a64e0
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-json_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.4.6 [compile->runtime]
@@ -164,7 +164,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@646b248
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b807405
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-iteratees_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->runtime]
@@ -172,7 +172,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d3720e6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e2f564a
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
 [debug] 	found com.typesafe#config;1.3.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->runtime]
@@ -180,7 +180,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@333fb6c3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1175939e
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-functional_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.4.6 [compile->runtime]
@@ -188,7 +188,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2675e1ee
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@378550c
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-datacommons_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.4.6 [compile->runtime]
@@ -196,7 +196,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.5.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2cad0572
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6840d77c
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.5.4
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.5.4 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.4 [compile->runtime]
@@ -204,7 +204,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.4 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69f925ec
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@701cc9ae
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 [compile->runtime]
@@ -212,7 +212,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 [compile->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e109682
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6953f9e2
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 [compile->runtime]
@@ -747,7 +747,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-specs2_2.11;2.4.6 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-specs2_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ec464d4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3fc1ca5f
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-specs2_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-specs2_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-specs2_2.11;2.4.6 [test->runtime]
@@ -755,7 +755,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-specs2_2.11;2.4.6 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.4.6 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ca18510
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40346737
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-test_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-test_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.4.6 [test->runtime]
@@ -763,7 +763,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.4.6 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-netty-server_2.11;2.4.6 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-netty-server_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a83dd7b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c722d41
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-netty-server_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-netty-server_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-netty-server_2.11;2.4.6 [test->runtime]
@@ -771,7 +771,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-netty-server_2.11;2.4.6 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-server_2.11;2.4.6 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-server_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@268f2d5b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f25aaef
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-server_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-server_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-server_2.11;2.4.6 [test->runtime]
@@ -779,7 +779,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-server_2.11;2.4.6 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play_2.11;2.4.6 [test->default(compile)]
 [info] Resolving com.typesafe.play#play_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52938764
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b258796
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play_2.11;2.4.6
 [debug] 	found com.typesafe.play#play_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play_2.11;2.4.6 [test->runtime]
@@ -787,7 +787,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play_2.11;2.4.6 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#build-link;2.4.6 [test->default(compile)]
 [info] Resolving com.typesafe.play#build-link;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ec02abc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e4523c6
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#build-link;2.4.6
 [debug] 	found com.typesafe.play#build-link;2.4.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#build-link;2.4.6 [test->runtime]
@@ -795,7 +795,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#build-link;2.4.6 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-exceptions;2.4.6 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-exceptions;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@956a1ec
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5af90699
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-exceptions;2.4.6
 [debug] 	found com.typesafe.play#play-exceptions;2.4.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-exceptions;2.4.6 [test->runtime]
@@ -803,7 +803,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-exceptions;2.4.6 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.javassist#javassist;3.19.0-GA [test->default(compile)]
 [info] Resolving org.javassist#javassist;3.19.0-GA ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6770d68
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d938699
 [debug] sbt-chain: module revision found in cache: org.javassist#javassist;3.19.0-GA
 [debug] 	found org.javassist#javassist;3.19.0-GA in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.javassist#javassist;3.19.0-GA [test->runtime]
@@ -811,7 +811,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.javassist#javassist;3.19.0-GA [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-netty-utils;2.4.6 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-netty-utils;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7856e52a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b3311b6
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-netty-utils;2.4.6
 [debug] 	found com.typesafe.play#play-netty-utils;2.4.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-netty-utils;2.4.6 [test->runtime]
@@ -819,7 +819,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#play-netty-utils;2.4.6 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#twirl-api_2.11;1.1.1 [test->default(compile)]
 [info] Resolving com.typesafe.play#twirl-api_2.11;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65a3c7cd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e2656e7
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#twirl-api_2.11;1.1.1
 [debug] 	found com.typesafe.play#twirl-api_2.11;1.1.1 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#twirl-api_2.11;1.1.1 [test->runtime]
@@ -827,7 +827,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.play#twirl-api_2.11;1.1.1 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [test->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75d374d6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7410d57e
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.4
 [debug] 	found org.apache.commons#commons-lang3;3.4 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [test->runtime]
@@ -835,7 +835,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [test->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@590f7c96
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42d1f344
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.3
 [debug] 	found ch.qos.logback#logback-core;1.1.3 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [test->runtime]
@@ -843,7 +843,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1098f3e1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39184387
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.3
 [debug] 	found ch.qos.logback#logback-classic;1.1.3 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->runtime]
@@ -851,7 +851,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [test->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a05e71a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a743f4c
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.13
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.13 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [test->runtime]
@@ -859,7 +859,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [test->default(compile)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.11;2.3.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69db28f7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@443ac844
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.11;2.3.13
 [debug] 	found com.typesafe.akka#akka-slf4j_2.11;2.3.13 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [test->runtime]
@@ -867,7 +867,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [test->default(compile)]
 [info] Resolving xerces#xercesImpl;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23b90d1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d36ffa0
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0
 [debug] 	found xerces#xercesImpl;2.11.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [test->runtime]
@@ -875,7 +875,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [test->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5265b1b7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d891aa6
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [test->runtime]
@@ -883,7 +883,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->javax.transaction#jta;1.1 [test->default(compile)]
 [info] Resolving javax.transaction#jta;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@673ede8f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48478bbd
 [debug] sbt-chain: module revision found in cache: javax.transaction#jta;1.1
 [debug] 	found javax.transaction#jta;1.1 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->javax.transaction#jta;1.1 [test->runtime]
@@ -891,7 +891,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->javax.transaction#jta;1.1 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.google.inject#guice;4.0 [test->default(compile)]
 [info] Resolving com.google.inject#guice;4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3743063c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ec1580d
 [debug] sbt-chain: module revision found in cache: com.google.inject#guice;4.0
 [debug] 	found com.google.inject#guice;4.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.google.inject#guice;4.0 [test->runtime]
@@ -899,7 +899,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.google.inject#guice;4.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->aopalliance#aopalliance;1.0 [test->default(compile)]
 [info] Resolving aopalliance#aopalliance;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74745ab1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d63b3bf
 [debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
 [debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->aopalliance#aopalliance;1.0 [test->runtime]
@@ -907,7 +907,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->aopalliance#aopalliance;1.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [test->default(compile)]
 [info] Resolving com.google.inject.extensions#guice-assistedinject;4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34665d34
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@333b2374
 [debug] sbt-chain: module revision found in cache: com.google.inject.extensions#guice-assistedinject;4.0
 [debug] 	found com.google.inject.extensions#guice-assistedinject;4.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [test->runtime]
@@ -915,7 +915,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->io.netty#netty;3.10.4.Final [test->default(compile)]
 [info] Resolving io.netty#netty;3.10.4.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e7301a4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3465f673
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.10.4.Final
 [debug] 	found io.netty#netty;3.10.4.Final in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->io.netty#netty;3.10.4.Final [test->runtime]
@@ -923,7 +923,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->io.netty#netty;3.10.4.Final [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.netty#netty-http-pipelining;1.1.4 [test->default(compile)]
 [info] Resolving com.typesafe.netty#netty-http-pipelining;1.1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3dd006c3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@197332b5
 [debug] sbt-chain: module revision found in cache: com.typesafe.netty#netty-http-pipelining;1.1.4
 [debug] 	found com.typesafe.netty#netty-http-pipelining;1.1.4 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.netty#netty-http-pipelining;1.1.4 [test->runtime]
@@ -931,7 +931,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.typesafe.netty#netty-http-pipelining;1.1.4 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->junit#junit;4.12 [test->default(compile)]
 [info] Resolving junit#junit;4.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50f92da8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c73c190
 [debug] sbt-chain: module revision found in cache: junit#junit;4.12
 [debug] 	found junit#junit;4.12 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->junit#junit;4.12 [test->runtime]
@@ -939,7 +939,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->junit#junit;4.12 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d9072e9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@436addc2
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [test->runtime]
@@ -947,7 +947,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.novocode#junit-interface;0.11 [test->default(compile)]
 [info] Resolving com.novocode#junit-interface;0.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39e6360e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3576415c
 [debug] sbt-chain: module revision found in cache: com.novocode#junit-interface;0.11
 [debug] 	found com.novocode#junit-interface;0.11 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.novocode#junit-interface;0.11 [test->runtime]
@@ -955,7 +955,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.novocode#junit-interface;0.11 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b39580e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68105ca
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->runtime]
@@ -963,7 +963,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.google.guava#guava;18.0 [test->default(compile)]
 [info] Resolving com.google.guava#guava;18.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d2c89b2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d36ec2b
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;18.0
 [debug] 	found com.google.guava#guava;18.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.google.guava#guava;18.0 [test->runtime]
@@ -971,7 +971,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.google.guava#guava;18.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.google.code.findbugs#jsr305;2.0.3 [test->default(compile)]
 [info] Resolving com.google.code.findbugs#jsr305;2.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a49be09
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12e3974b
 [debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;2.0.3
 [debug] 	found com.google.code.findbugs#jsr305;2.0.3 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.google.code.findbugs#jsr305;2.0.3 [test->runtime]
@@ -979,7 +979,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.google.code.findbugs#jsr305;2.0.3 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.fluentlenium#fluentlenium-core;0.10.3 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-core;0.10.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c8f5fe
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ba47976
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-core;0.10.3
 [debug] 	found org.fluentlenium#fluentlenium-core;0.10.3 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.fluentlenium#fluentlenium-core;0.10.3 [test->runtime]
@@ -987,7 +987,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.fluentlenium#fluentlenium-core;0.10.3 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-java;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-java;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55153fea
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a4cd057
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-java;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-java;2.44.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-java;2.44.0 [test->runtime]
@@ -995,7 +995,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-java;2.44.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f39d995
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f190a86
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 [test->runtime]
@@ -1003,7 +1003,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-remote-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-remote-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a6ffeb2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d8c98e9
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-remote-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-remote-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-remote-driver;2.44.0 [test->runtime]
@@ -1011,7 +1011,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-remote-driver;2.44.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->cglib#cglib-nodep;2.1_3 [test->default(compile)]
 [info] Resolving cglib#cglib-nodep;2.1_3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c96e858
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@781c05bc
 [debug] sbt-chain: module revision found in cache: cglib#cglib-nodep;2.1_3
 [debug] 	found cglib#cglib-nodep;2.1_3 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->cglib#cglib-nodep;2.1_3 [test->runtime]
@@ -1019,7 +1019,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->cglib#cglib-nodep;2.1_3 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.google.code.gson#gson;2.3 [test->default(compile)]
 [info] Resolving com.google.code.gson#gson;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@402f876
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41776f15
 [debug] sbt-chain: module revision found in cache: com.google.code.gson#gson;2.3
 [debug] 	found com.google.code.gson#gson;2.3 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.google.code.gson#gson;2.3 [test->runtime]
@@ -1027,7 +1027,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->com.google.code.gson#gson;2.3 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-api;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-api;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31a9a033
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@457b764f
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-api;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-api;2.44.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-api;2.44.0 [test->runtime]
@@ -1035,7 +1035,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-api;2.44.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.3.4 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b0b691e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@187513a5
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.3.4
 [debug] 	found org.apache.httpcomponents#httpclient;4.3.4 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.3.4 [test->runtime]
@@ -1043,7 +1043,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.3.4 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.3.2 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f8995d1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e751b9b
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.3.2
 [debug] 	found org.apache.httpcomponents#httpcore;4.3.2 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.3.2 [test->runtime]
@@ -1051,7 +1051,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.3.2 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->commons-logging#commons-logging;1.1.3 [test->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@282d0ea0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1af012c6
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.3
 [debug] 	found commons-logging#commons-logging;1.1.3 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->commons-logging#commons-logging;1.1.3 [test->runtime]
@@ -1059,7 +1059,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->commons-logging#commons-logging;1.1.3 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.apache.commons#commons-exec;1.1 [test->default(compile)]
 [info] Resolving org.apache.commons#commons-exec;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70f28429
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3aedc2bc
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-exec;1.1
 [debug] 	found org.apache.commons#commons-exec;1.1 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.apache.commons#commons-exec;1.1 [test->runtime]
@@ -1067,7 +1067,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.apache.commons#commons-exec;1.1 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.java.dev.jna#jna;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#jna;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ea3df15
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4cf52f75
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna;3.4.0
 [debug] 	found net.java.dev.jna#jna;3.4.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.java.dev.jna#jna;3.4.0 [test->runtime]
@@ -1075,7 +1075,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.java.dev.jna#jna;3.4.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.java.dev.jna#platform;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#platform;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c60a299
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51296606
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#platform;3.4.0
 [debug] 	found net.java.dev.jna#platform;3.4.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.java.dev.jna#platform;3.4.0 [test->runtime]
@@ -1083,7 +1083,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.java.dev.jna#platform;3.4.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e9154a0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@295c0ef6
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 [test->runtime]
@@ -1091,7 +1091,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit;2.15 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit;2.15 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2bd549f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b13dc7b
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit;2.15
 [debug] 	found net.sourceforge.htmlunit#htmlunit;2.15 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit;2.15 [test->runtime]
@@ -1099,7 +1099,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit;2.15 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->xalan#xalan;2.7.1 [test->default(compile)]
 [info] Resolving xalan#xalan;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b02cc70
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26468a29
 [debug] sbt-chain: module revision found in cache: xalan#xalan;2.7.1
 [debug] 	found xalan#xalan;2.7.1 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->xalan#xalan;2.7.1 [test->runtime]
@@ -1107,7 +1107,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->xalan#xalan;2.7.1 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->commons-collections#commons-collections;3.2.1 [test->default(compile)]
 [info] Resolving commons-collections#commons-collections;3.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ab24bc4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@263e3d25
 [debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
 [debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->commons-collections#commons-collections;3.2.1 [test->runtime]
@@ -1115,7 +1115,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->commons-collections#commons-collections;3.2.1 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.apache.httpcomponents#httpmime;4.3.3 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpmime;4.3.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d8d81bf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bc46b0e
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.3.3
 [debug] 	found org.apache.httpcomponents#httpmime;4.3.3 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.apache.httpcomponents#httpmime;4.3.3 [test->runtime]
@@ -1123,7 +1123,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.apache.httpcomponents#httpmime;4.3.3 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit-core-js;2.15 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit-core-js;2.15 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58b2b51c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@511bd1f3
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.15
 [debug] 	found net.sourceforge.htmlunit#htmlunit-core-js;2.15 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit-core-js;2.15 [test->runtime]
@@ -1131,7 +1131,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit-core-js;2.15 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.sourceforge.nekohtml#nekohtml;1.9.21 [test->default(compile)]
 [info] Resolving net.sourceforge.nekohtml#nekohtml;1.9.21 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@742b6c7e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d64de77
 [debug] sbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.21
 [debug] 	found net.sourceforge.nekohtml#nekohtml;1.9.21 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.sourceforge.nekohtml#nekohtml;1.9.21 [test->runtime]
@@ -1139,7 +1139,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.sourceforge.nekohtml#nekohtml;1.9.21 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.sourceforge.cssparser#cssparser;0.9.14 [test->default(compile)]
 [info] Resolving net.sourceforge.cssparser#cssparser;0.9.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@287e3c3e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ca28895
 [debug] sbt-chain: module revision found in cache: net.sourceforge.cssparser#cssparser;0.9.14
 [debug] 	found net.sourceforge.cssparser#cssparser;0.9.14 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.sourceforge.cssparser#cssparser;0.9.14 [test->runtime]
@@ -1147,7 +1147,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->net.sourceforge.cssparser#cssparser;0.9.14 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.w3c.css#sac;1.3 [test->default(compile)]
 [info] Resolving org.w3c.css#sac;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@761aad52
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40974e40
 [debug] sbt-chain: module revision found in cache: org.w3c.css#sac;1.3
 [debug] 	found org.w3c.css#sac;1.3 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.w3c.css#sac;1.3 [test->runtime]
@@ -1155,7 +1155,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.w3c.css#sac;1.3 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->commons-io#commons-io;2.4 [test->default(compile)]
 [info] Resolving commons-io#commons-io;2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12543d2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11032705
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.4
 [debug] 	found commons-io#commons-io;2.4 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->commons-io#commons-io;2.4 [test->runtime]
@@ -1163,7 +1163,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->commons-io#commons-io;2.4 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10ad7b63
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3df04210
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 [test->runtime]
@@ -1171,7 +1171,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.eclipse.jetty#jetty-util;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bc75a2a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@636c2b68
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-util;8.1.15.v20140411 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.eclipse.jetty#jetty-util;8.1.15.v20140411 [test->runtime]
@@ -1179,7 +1179,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.eclipse.jetty#jetty-util;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.eclipse.jetty#jetty-io;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@427582a6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64eb972b
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-io;8.1.15.v20140411 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.eclipse.jetty#jetty-io;8.1.15.v20140411 [test->runtime]
@@ -1187,7 +1187,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.eclipse.jetty#jetty-io;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.eclipse.jetty#jetty-http;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-http;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ed9a5b8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7502cc80
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-http;8.1.15.v20140411 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.eclipse.jetty#jetty-http;8.1.15.v20140411 [test->runtime]
@@ -1195,7 +1195,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.eclipse.jetty#jetty-http;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d564c5d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33d6486a
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 [test->runtime]
@@ -1203,7 +1203,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-ie-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-ie-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b6cfcb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b5c0984
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-ie-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-ie-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-ie-driver;2.44.0 [test->runtime]
@@ -1211,7 +1211,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-ie-driver;2.44.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-safari-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-safari-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ca3f0e1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@773e1e3d
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-safari-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-safari-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-safari-driver;2.44.0 [test->runtime]
@@ -1219,7 +1219,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-safari-driver;2.44.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.webbitserver#webbit;0.4.14 [test->default(compile)]
 [info] Resolving org.webbitserver#webbit;0.4.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c216ee
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@395fbad6
 [debug] sbt-chain: module revision found in cache: org.webbitserver#webbit;0.4.14
 [debug] 	found org.webbitserver#webbit;0.4.14 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.webbitserver#webbit;0.4.14 [test->runtime]
@@ -1227,7 +1227,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.webbitserver#webbit;0.4.14 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-support;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-support;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10fe2165
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cf30c16
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-support;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-support;2.44.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-support;2.44.0 [test->runtime]
@@ -1235,7 +1235,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.seleniumhq.selenium#selenium-support;2.44.0 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.specs2#specs2-core_2.11;3.6 [test->default(compile)]
 [info] Resolving org.specs2#specs2-core_2.11;3.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@702f8f69
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3eb51d55
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-core_2.11;3.6
 [debug] 	found org.specs2#specs2-core_2.11;3.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.specs2#specs2-core_2.11;3.6 [test->runtime]
@@ -1243,7 +1243,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.specs2#specs2-core_2.11;3.6 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.specs2#specs2-matcher_2.11;3.6 [test->default(compile)]
 [info] Resolving org.specs2#specs2-matcher_2.11;3.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4dc68eda
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78ee426a
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-matcher_2.11;3.6
 [debug] 	found org.specs2#specs2-matcher_2.11;3.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.specs2#specs2-matcher_2.11;3.6 [test->runtime]
@@ -1251,7 +1251,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.specs2#specs2-matcher_2.11;3.6 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.specs2#specs2-common_2.11;3.6 [test->default(compile)]
 [info] Resolving org.specs2#specs2-common_2.11;3.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e7c0550
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50ef6834
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-common_2.11;3.6
 [debug] 	found org.specs2#specs2-common_2.11;3.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.specs2#specs2-common_2.11;3.6 [test->runtime]
@@ -1259,7 +1259,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.specs2#specs2-common_2.11;3.6 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scalaz.stream#scalaz-stream_2.11;0.7a [test->default(compile)]
 [info] Resolving org.scalaz.stream#scalaz-stream_2.11;0.7a ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28e18095
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6dc4e0e2
 [debug] sbt-chain: module revision found in cache: org.scalaz.stream#scalaz-stream_2.11;0.7a
 [debug] 	found org.scalaz.stream#scalaz-stream_2.11;0.7a in sbt-chain
 [debug] 	[0.7a] org.scalaz.stream#scalaz-stream_2.11;0.7a
@@ -1268,7 +1268,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scalaz.stream#scalaz-stream_2.11;0.7a [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scodec#scodec-bits_2.11;1.0.6 [test->default(compile)]
 [info] Resolving org.scodec#scodec-bits_2.11;1.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@608ee0e6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34c5f4c4
 [debug] sbt-chain: module revision found in cache: org.scodec#scodec-bits_2.11;1.0.6
 [debug] 	found org.scodec#scodec-bits_2.11;1.0.6 in sbt-chain
 [debug] 	[1.0.6] org.scodec#scodec-bits_2.11;1.0.6
@@ -1277,7 +1277,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.scodec#scodec-bits_2.11;1.0.6 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.specs2#specs2-junit_2.11;3.6 [test->default(compile)]
 [info] Resolving org.specs2#specs2-junit_2.11;3.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5654e2e8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11b93a3
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-junit_2.11;3.6
 [debug] 	found org.specs2#specs2-junit_2.11;3.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.specs2#specs2-junit_2.11;3.6 [test->runtime]
@@ -1285,7 +1285,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.specs2#specs2-junit_2.11;3.6 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.specs2#specs2-mock_2.11;3.6 [test->default(compile)]
 [info] Resolving org.specs2#specs2-mock_2.11;3.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e34f7be
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1367818
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-mock_2.11;3.6
 [debug] 	found org.specs2#specs2-mock_2.11;3.6 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.specs2#specs2-mock_2.11;3.6 [test->runtime]
@@ -1293,7 +1293,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.specs2#specs2-mock_2.11;3.6 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.mockito#mockito-core;1.9.5 [test->default(compile)]
 [info] Resolving org.mockito#mockito-core;1.9.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34c08982
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ef8312
 [debug] sbt-chain: module revision found in cache: org.mockito#mockito-core;1.9.5
 [debug] 	found org.mockito#mockito-core;1.9.5 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.mockito#mockito-core;1.9.5 [test->runtime]
@@ -1301,7 +1301,7 @@
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.mockito#mockito-core;1.9.5 [test->master]
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.objenesis#objenesis;1.0 [test->default(compile)]
 [info] Resolving org.objenesis#objenesis;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51fb1c40
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c6ba82f
 [debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;1.0
 [debug] 	found org.objenesis#objenesis;1.0 in sbt-chain
 [debug] == resolving dependencies default#mongodb-migrations$sources_2.11;1.0->org.objenesis#objenesis;1.0 [test->runtime]
@@ -2893,8 +2893,8 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.5.4!jackson-databind.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.5.4!jackson-databind.jar
-[debug] 	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.11;7.1.1!scalaz-concurrent_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.11;7.1.1!scalaz-concurrent_2.11.jar
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.11;7.1.1!scalaz-core_2.11.jar(src)
@@ -3078,7 +3078,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 656ms :: artifacts dl 41ms
+[debug] :: resolution report :: resolve 705ms :: artifacts dl 43ms
 [debug] 	report for default#mongodb-migrations$sources_2.11;1.0 compile produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations$sources_2.11-compile.xml
 [debug] 	report for default#mongodb-migrations$sources_2.11;1.0 runtime produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations$sources_2.11-runtime.xml
 [debug] 	report for default#mongodb-migrations$sources_2.11;1.0 test produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations$sources_2.11-test.xml
@@ -3092,4 +3092,4 @@
 [debug] 	report for default#mongodb-migrations$sources_2.11;1.0 docs produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations$sources_2.11-docs.xml
 [debug] 	report for default#mongodb-migrations$sources_2.11;1.0 pom produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations$sources_2.11-pom.xml
 [debug] 	report for default#mongodb-migrations$sources_2.11;1.0 scala-tool produced in /Users/dkim/Documents/scala_practice/mongodb-migrations/target/resolution-cache/reports/default-mongodb-migrations$sources_2.11-scala-tool.xml
-[debug] 	resolve done (656ms resolve - 41ms download)
+[debug] 	resolve done (705ms resolve - 43ms download)

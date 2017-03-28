@@ -4,7 +4,7 @@
 		module="mongodb-migrations_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170216174311"
+		publication="20170327172541"
 	>
 		<description>
 		mongodb-migrations
@@ -39,6 +39,7 @@
 		<dependency org="commons-codec" name="commons-codec" rev="1.10" conf="compile->default(compile)"/>
 		<dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.5.4" conf="compile->default(compile)"/>
 		<dependency org="org.scala-lang" name="scala-reflect" rev="2.11.6" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.6" conf="compile->default(compile)"/>
 		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.5.4" conf="compile->default(compile)"/>
 		<dependency org="org.scala-stm" name="scala-stm_2.11" rev="0.7" conf="compile->default(compile)"/>
 		<dependency org="org.scalaz" name="scalaz-concurrent_2.11" rev="7.1.1" conf="compile->default(compile)"/>

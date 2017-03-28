@@ -2,169 +2,112 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af6adb88-2008-447c-8d28-2cdaf7b1d008" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_guava_guava_16_0_1_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_xml_2_11_1_0_1_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$10c43915f3f4563083a2$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$10c43915f3f4563083a2$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$10c43915f3f4563083a2.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$10c43915f3f4563083a2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/sbtMergeTarget-0b16e2b799bcd0b111bf507569f971354e5e674d.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/sbtMergeTarget-0bcde308e23528b9a8904dd5fa2d9f3060c4bc62.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/sbtMergeTarget-30ad1396e0e09ac79edbbce523080a2396e3e554.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/sbtMergeTarget-4bc54e0032047be353748b9056038ceefae08404.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/sbtMergeTarget-52ce1be8963d149b24f61d9fd6d070a5cebb7874.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/sbtMergeTarget-8589cb720e91c0cd8c9435991688d8c79c7189f9.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/sbtMergeTarget-ac48d3018b830bf3eca737798f33e7e888b20a6f.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/sbtMergeTarget-b0696ddd162bf78edb76d1dbd0e0531cf9a64e6c.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/sbtMergeTarget-f9b9b53b8349b47b40fe443c07ec0ae56874bf16.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Alternative.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Applicative.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Functors.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Monoid.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Products.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/iteratee/Concurrent.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/iteratee/Enumeratee.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/iteratee/Enumerator.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/iteratee/Execution.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/iteratee/Iteratee.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/iteratee/RunQueue.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/iteratee/internal.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/json/Format.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsConstraints.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsLookup.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsMacroImpl.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsPath.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsReadable.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsResult.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsValue.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/json/Json.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/json/Reads.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/json/Writes.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/json/jackson/JacksonJson.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/DownScript$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/DownScript.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolution$$anonfun$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolution$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/EvolutionHelperScripts$class.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/EvolutionHelperScripts.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14$$anonfun$15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14$$anonfun$apply$16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14$$anonfun$apply$17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$17$$anonfun$apply$18.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$apply$19.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$apply$20.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applyScript$1$$anonfun$apply$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applyScript$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$checkEvolutionsState$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$checkEvolutionsState$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$conflicts$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$databaseEvolutions$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$databaseEvolutions$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$1$$anonfun$apply$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$10$$anonfun$apply$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$9$$anonfun$apply$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$10$$anonfun$apply$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$4$$anonfun$apply$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$8$$anonfun$apply$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$toHumanReadableScript$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$class.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InconsistentDatabase$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InconsistentDatabase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidDatabaseEvolutionScript$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidDatabaseEvolutionScript.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidDatabaseRevision$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidDatabaseRevision.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidNumberOfArguments$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidNumberOfArguments.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Main$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Main$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Main$delayedInit$body.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongevLogger$class.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongevLogger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor$$anonfun$execute$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor$$anonfun$flattenObjectIds$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor$StringListLogger$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor$StringListLogger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor$class.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Script.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/UpScript$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/UpScript.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/DownScript$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/DownScript$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/DownScript.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/DownScript.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolution$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolution$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolution$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolution$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolution.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/EvolutionHelperScripts$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/EvolutionHelperScripts$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$15.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14$$anonfun$15.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14$$anonfun$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14$$anonfun$apply$16.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14$$anonfun$apply$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14$$anonfun$apply$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$16.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$17$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$17$$anonfun$apply$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$apply$19.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$apply$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$apply$20.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$apply$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applyScript$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applyScript$1$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applyScript$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applyScript$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$checkEvolutionsState$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$checkEvolutionsState$1$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$checkEvolutionsState$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$checkEvolutionsState$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$conflicts$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$conflicts$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$databaseEvolutions$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$databaseEvolutions$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$databaseEvolutions$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$databaseEvolutions$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$1$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$1$$anonfun$apply$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$10$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$10$$anonfun$apply$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$9$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$9$$anonfun$apply$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$9.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$10$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$10$$anonfun$apply$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$4$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$4$$anonfun$apply$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$8$$anonfun$apply$9.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$8$$anonfun$apply$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$toHumanReadableScript$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$$anonfun$toHumanReadableScript$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Evolutions$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InconsistentDatabase$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InconsistentDatabase$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InconsistentDatabase.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InconsistentDatabase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidDatabaseEvolutionScript$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidDatabaseEvolutionScript$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidDatabaseEvolutionScript.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidDatabaseEvolutionScript.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidDatabaseRevision$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidDatabaseRevision$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidDatabaseRevision.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidDatabaseRevision.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidNumberOfArguments$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidNumberOfArguments$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidNumberOfArguments.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/InvalidNumberOfArguments.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Main$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/Main$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongevLogger$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongevLogger$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor$$anonfun$execute$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor$$anonfun$execute$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor$$anonfun$flattenObjectIds$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor$$anonfun$flattenObjectIds$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor$StringListLogger$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor$StringListLogger$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor$StringListLogger.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor$StringListLogger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/MongoScriptExecutor$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/UpScript$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/UpScript$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/UpScript.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/davinkim/mongodb_migrations/UpScript.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/migration.jar" afterPath="$PROJECT_DIR$/target/scala-2.11/migration.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assembly/$global/streams/assembly-inputs" afterPath="$PROJECT_DIR$/target/streams/$global/assembly/$global/streams/assembly-inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/DownScript$.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/DownScript$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/DownScript.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/DownScript.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolution$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolution$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolution$.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolution$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolution.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/EvolutionHelperScripts$class.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/EvolutionHelperScripts$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$8.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$15.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1$$anonfun$apply$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$2.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$13.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14$$anonfun$15.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14$$anonfun$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14$$anonfun$apply$16.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14$$anonfun$apply$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14$$anonfun$apply$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$16.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$17$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$17$$anonfun$apply$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$17.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$apply$19.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$apply$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$apply$20.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3$$anonfun$apply$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applicationEvolutions$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applyScript$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applyScript$1$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applyScript$1.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$applyScript$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$checkEvolutionsState$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$checkEvolutionsState$1$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$checkEvolutionsState$1.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$checkEvolutionsState$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$conflicts$1.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$conflicts$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$databaseEvolutions$1.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$databaseEvolutions$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$databaseEvolutions$2.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$databaseEvolutions$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$1$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$1$$anonfun$apply$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$1.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$2.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$10$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$10$$anonfun$apply$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$10.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$11.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$12.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$9$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$9$$anonfun$apply$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$9.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$10$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$10$$anonfun$apply$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$4$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$4$$anonfun$apply$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$8$$anonfun$apply$9.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$8$$anonfun$apply$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3$$anonfun$apply$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$4.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$evolutionScript$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$toHumanReadableScript$1.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$$anonfun$toHumanReadableScript$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$class.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Evolutions$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InconsistentDatabase$.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InconsistentDatabase$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InconsistentDatabase.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InconsistentDatabase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InvalidDatabaseEvolutionScript$.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InvalidDatabaseEvolutionScript$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InvalidDatabaseEvolutionScript.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InvalidDatabaseEvolutionScript.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InvalidDatabaseRevision$.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InvalidDatabaseRevision$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InvalidDatabaseRevision.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InvalidDatabaseRevision.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InvalidNumberOfArguments$.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InvalidNumberOfArguments$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InvalidNumberOfArguments.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/InvalidNumberOfArguments.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Main$.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/Main$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/MongevLogger$class.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/MongevLogger$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/MongoScriptExecutor$$anonfun$execute$1.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/MongoScriptExecutor$$anonfun$execute$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/MongoScriptExecutor$$anonfun$flattenObjectIds$1.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/MongoScriptExecutor$$anonfun$flattenObjectIds$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/MongoScriptExecutor$StringListLogger$.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/MongoScriptExecutor$StringListLogger$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/MongoScriptExecutor$StringListLogger.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/MongoScriptExecutor$StringListLogger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/MongoScriptExecutor$class.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/MongoScriptExecutor$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/UpScript$.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/UpScript$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/UpScript.class" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/2acb264dfff56fd3c5cbb612d06d1c343ecd5e39_dir/com/davinkim/mongodb_migrations/UpScript.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
@@ -187,7 +130,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-mongodb-migrations-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-mongodb-migrations-build-sources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-mongodb-migrations-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-mongodb-migrations-build-test-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-mongodb-migrations-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-mongodb-migrations-build-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/davinkim/mongodb_migrations/Main.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/davinkim/mongodb_migrations/Main.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/mongodb-migrations$sbt_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/mongodb-migrations$sbt_2.11/1.0/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/mongodb-migrations$sbt_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/mongodb-migrations$sbt_2.11/1.0/resolved.xml.xml" />
@@ -222,25 +168,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mongodb-migrations_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-mongodb-migrations_2.11-sources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mongodb-migrations_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-mongodb-migrations_2.11-test-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mongodb-migrations_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-mongodb-migrations_2.11-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assembly/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/assembly/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="mongodb-migrations.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -290,208 +222,40 @@
     <favorites_list name="mongodb-migrations" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Main.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/mongodb_migrations/Main.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="713">
-                  <caret line="548" column="1" selection-start-line="548" selection-start-column="1" selection-end-line="548" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#41#57#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Logger.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/Logger/Logger.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Logger.java" pinned="false" current-in-tab="true">
-            <entry file="jar://$USER_HOME$/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.12-sources.jar!/org/slf4j/Logger.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="960">
-                  <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Json.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/Json.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4632">
-                  <caret line="195" column="30" selection-start-line="195" selection-start-column="30" selection-end-line="195" selection-end-column="30" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Writes.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/Writes.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2016">
-                  <caret line="103" column="6" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="JsMacroImpl.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsMacroImpl.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="672">
-                  <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#27#60#0" expanded="true" />
-                    <element signature="e#1063#1082#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="JacksonJson.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/jackson/JacksonJson.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3528">
-                  <caret line="161" column="9" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
-                  <folding>
-                    <element signature="e#35#61#0" expanded="false" />
-                    <element signature="e#1417#1471#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Reads.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/Reads.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#25961#25991#0" expanded="false" />
-                    <element signature="e#27225#27255#0" expanded="false" />
-                    <element signature="e#33533#33554#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Format.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/Format.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Products.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Products.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="16080">
-                  <caret line="670" column="0" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="build.sbt" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/build.sbt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="package.scala" pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/srcs/play-iteratees_2.11-2.4.6-sources.jar!/play/api/libs/iteratee/package.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="936">
-                  <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="false" />
-                    <element signature="e#338#376#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Iteratee.scala" pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/srcs/play-iteratees_2.11-2.4.6-sources.jar!/play/api/libs/iteratee/Iteratee.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="9624">
-                  <caret line="406" column="8" selection-start-line="406" selection-start-column="8" selection-end-line="406" selection-end-column="8" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="false" />
-                    <element signature="e#106#167#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Enumerator.scala" pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/srcs/play-iteratees_2.11-2.4.6-sources.jar!/play/api/libs/iteratee/Enumerator.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="220" column="0" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Concurrent.scala" pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/srcs/play-iteratees_2.11-2.4.6-sources.jar!/play/api/libs/iteratee/Concurrent.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="456">
-                  <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="false" />
-                    <element signature="e#106#167#0" expanded="false" />
-                    <element signature="e#10167#10206#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="JsMacroImpl.scala" pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.4.6-sources.jar!/play/api/libs/json/JsMacroImpl.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="168">
-                  <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Aliases.scala" pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.6-sources.jar!/scala/reflect/macros/Aliases.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1680">
-                  <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/mongodb_migrations/Main.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+              <folding>
+                <element signature="e#41#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -524,33 +288,39 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/Exceptions/UsefulException.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/Exceptions/MigrationException.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/validation/ValidationError.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsLookup.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsReadable.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsPath.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Products.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Functors.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Monoid.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/Format.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsConstraints.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsValue.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/Reads.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Alternative.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Applicative.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsResult.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/Writes.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/iteratee/Execution.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/iteratee/internal.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/iteratee/Enumeratee.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/iteratee/Enumerator.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/iteratee/Concurrent.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/Json.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/iteratee/RunQueue.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/iteratee/Iteratee.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsMacroImpl.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/jackson/JacksonJson.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Main.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/mongodb_migrations/Main.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsonConfiguration.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsonValidationError.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/LazyHelper.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/EnvReads.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/EnvWrites.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/StaticBinding.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/Writes.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsResult.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/jackson/JacksonJson.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/Json.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/Format.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsConstraints.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsLookup.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsPath.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsReadable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsValue.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/Reads.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsMacroImpl.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/davinkim/mongodb_migrations/Main.scala" />
       </list>
     </option>
   </component>
@@ -598,7 +368,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mongodb-migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -621,15 +401,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SBT: org.joda:joda-convert:1.7:jar" />
+              <option name="myItemId" value="SBT: org.scala-lang:scala-reflect:2.11.6:jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="joda-convert-1.7.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="convert" />
+              <option name="myItemId" value="scala-reflect-2.11.6.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -643,11 +419,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SBT: org.joda:joda-convert:1.7:jar" />
+              <option name="myItemId" value="SBT: org.scala-lang:scala-reflect:2.11.6:jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="joda-convert-1.7.jar" />
+              <option name="myItemId" value="scala-reflect-2.11.6.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reflect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -661,11 +441,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SBT: joda-time:joda-time:2.8.1:jar" />
+              <option name="myItemId" value="SBT: org.scala-lang:scala-reflect:2.11.6:jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="joda-time-2.8.1.jar" />
+              <option name="myItemId" value="scala-reflect-2.11.6.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reflect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="macros" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -679,21 +467,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SBT: com.typesafe.play:play-iteratees_2.11:2.4.6:jar" />
+              <option name="myItemId" value="SBT: com.typesafe.play:play-json_2.11:2.4.6:jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="play-iteratees_2.11-2.4.6.jar" />
+              <option name="myItemId" value="play-json_2.11-2.4.6.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iteratee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -705,225 +493,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SBT: com.typesafe.play:play-iteratees_2.11:2.4.6:jar" />
+              <option name="myItemId" value="SBT: com.typesafe.play:play-json_2.11:2.4.6:jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="play-iteratees_2.11-2.4.6.jar" />
+              <option name="myItemId" value="play-json_2.11-2.4.6.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iteratee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Enumerator.class" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SBT: com.typesafe.play:play-iteratees_2.11:2.4.6:jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play-iteratees_2.11-2.4.6.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iteratee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Enumeratee.class" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SBT: com.typesafe.play:play-iteratees_2.11:2.4.6:jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play-iteratees_2.11-2.4.6.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SBT: com.typesafe.play:play-iteratees_2.11:2.4.6:jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play-iteratees_2.11-2.4.6.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="davinkim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="davinkim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Writes.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="davinkim" />
+              <option name="myItemId" value="play" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -937,32 +515,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="SBT: com.typesafe.play:play-json_2.11:2.4.6:jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="play-json_2.11-2.4.6.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="davinkim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Format.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -973,185 +535,15 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="mongodb-migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="davinkim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Products.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="davinkim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Monoid.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="davinkim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Functors.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="davinkim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Applicative.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="davinkim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Alternative.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ScoringService" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1635,7 +1027,7 @@
     </list>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1487295720451" />
+    <option name="lastUpdateTimestamp" value="1490660746663" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -1678,7 +1070,7 @@
         <entry key="$PROJECT_DIR$/../../Avetta/src/testproject" value="1468007228000" />
         <entry key="$PROJECT_DIR$/../../FileService" value="1485971669000" />
         <entry key="$PROJECT_DIR$/../mongodb-file-storage" value="1485284708000" />
-        <entry key="$PROJECT_DIR$" value="1487295708000" />
+        <entry key="$PROJECT_DIR$" value="1490660731000" />
         <entry key="$PROJECT_DIR$/../my-first-app" value="1484959222000" />
         <entry key="$PROJECT_DIR$/../play-fileupload-java" value="1484729106000" />
         <entry key="$PROJECT_DIR$/../play-scala" value="1484689629000" />
@@ -1720,12 +1112,16 @@
       <workItem from="1487181901868" duration="9515000" />
       <workItem from="1487196742929" duration="445000" />
       <workItem from="1487269304835" duration="1174000" />
-      <workItem from="1487289248996" duration="4814000" />
+      <workItem from="1487289248996" duration="4973000" />
+      <workItem from="1490313337140" duration="2692000" />
+      <workItem from="1490374891116" duration="7895000" />
+      <workItem from="1490633606776" duration="11362000" />
+      <workItem from="1490720532173" duration="2756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99672000" />
+    <option name="totallyTimeSpent" value="124536000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1738,11 +1134,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1039" y="-1440" width="3440" height="1440" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32989994" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1751,23 +1147,23 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20684524" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20653789" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14802825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1792,147 +1188,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Monoid.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-functional_2.11/srcs/play-functional_2.11-2.4.6-sources.jar!/play/api/libs/functional/Monoid.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Functors.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-functional_2.11/srcs/play-functional_2.11-2.4.6-sources.jar!/play/api/libs/functional/Products.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="108" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.4.6-sources.jar!/play/api/libs/json/Format.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.4.6-sources.jar!/play/api/libs/json/JsConstraints.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4304">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsConstraints.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5208">
-          <caret line="217" column="25" selection-start-line="217" selection-start-column="25" selection-end-line="217" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.4.6-sources.jar!/play/api/libs/json/JsValue.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.4.6-sources.jar!/play/api/libs/json/Writes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2808">
-          <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.6-sources.jar!/scala/reflect/macros/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-functional_2.11/srcs/play-functional_2.11-2.4.6-sources.jar!/play/api/libs/functional/Alternative.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-functional_2.11/srcs/play-functional_2.11-2.4.6-sources.jar!/play/api/libs/functional/Applicative.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="26" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsResult.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="183" column="5" selection-start-line="183" selection-start-column="5" selection-end-line="183" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Applicative.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Alternative.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsValue.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/srcs/play-iteratees_2.11-2.4.6-sources.jar!/play/api/libs/iteratee/Execution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="965">
-          <caret line="129" column="1" selection-start-line="9" selection-start-column="0" selection-end-line="129" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/srcs/play-iteratees_2.11-2.4.6-sources.jar!/play/api/libs/iteratee/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#338#376#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/srcs/play-iteratees_2.11-2.4.6-sources.jar!/play/api/libs/iteratee/Iteratee.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9624">
-          <caret line="406" column="8" selection-start-line="406" selection-start-column="8" selection-end-line="406" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#106#167#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/iteratee/Enumeratee.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1912">
@@ -1972,10 +1227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6912">
           <caret line="294" column="41" selection-start-line="294" selection-start-column="41" selection-end-line="294" selection-end-column="41" />
-          <folding>
-            <element signature="e#31#92#0" expanded="false" />
-            <element signature="e#10164#10203#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1997,9 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <element signature="e#31#92#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2014,11 +1262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#106#167#0" expanded="false" />
-            <element signature="e#10167#10206#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2043,76 +1286,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/Writes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="103" column="6" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/jackson/JacksonJson.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3528">
-          <caret line="161" column="9" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
-          <folding>
-            <element signature="e#35#61#0" expanded="false" />
-            <element signature="e#1417#1471#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/language.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="180" column="22" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/Json.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4632">
-          <caret line="195" column="30" selection-start-line="195" selection-start-column="30" selection-end-line="195" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/Reads.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#25961#25991#0" expanded="false" />
-            <element signature="e#27225#27255#0" expanded="false" />
-            <element signature="e#33533#33554#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/Format.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/functional/Products.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16080">
           <caret line="670" column="0" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.4.6-sources.jar!/play/api/libs/json/Json.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="154" column="47" selection-start-line="154" selection-start-column="47" selection-end-line="154" selection-end-column="47" />
-          <folding>
-            <element signature="e#102#128#0" expanded="true" />
-            <element signature="e#6390#6425#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2120,7 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2128,26 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
           <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.4.6-sources.jar!/play/api/libs/json/JsMacroImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsMacroImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#60#0" expanded="true" />
-            <element signature="e#1063#1082#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2155,33 +1311,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/srcs/play-iteratees_2.11-2.4.6-sources.jar!/play/api/libs/iteratee/Enumerator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="5088">
           <caret line="220" column="0" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/mongodb_migrations/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="548" column="1" selection-start-line="548" selection-start-column="1" selection-end-line="548" selection-end-column="1" />
-          <folding>
-            <element signature="e#41#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/Logger/Logger.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2189,15 +1325,195 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/Logger/Logger.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.4.6-sources.jar!/play/api/libs/json/Format.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.4.6-sources.jar!/play/api/libs/json/Writes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.4.6-sources.jar!/play/libs/Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.6-sources.jar!/scala/reflect/macros/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/language.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="180" column="22" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.6-sources.jar!/scala/reflect/api/StandardDefinitions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="252" column="8" selection-start-line="252" selection-start-column="8" selection-end-line="252" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsonConfiguration.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsonValidationError.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/LazyHelper.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/EnvWrites.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/EnvReads.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/StaticBinding.scala" />
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.4.6-sources.jar!/play/api/libs/json/JsMacroImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.4.6-sources.jar!/play/api/libs/json/Json.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="203" column="39" selection-start-line="203" selection-start-column="39" selection-end-line="203" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/Format.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsConstraints.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/Json.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5664">
+          <caret line="238" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsLookup.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/Writes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="827">
+          <caret line="483" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="483" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsPath.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsReadable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsValue.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/Reads.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/jackson/JacksonJson.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="81" column="43" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsResult.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="827">
+          <caret line="204" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+        <state relative-caret-position="480">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar!/scala/reflect/macros/blackbox/Context.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/json/JsMacroImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/davinkim/mongodb_migrations/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+          <folding>
+            <element signature="e#41#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
