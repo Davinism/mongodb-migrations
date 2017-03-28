@@ -9,7 +9,6 @@ import com.davinkim.Logger.Logger
 import play.api.libs.json._
 import org.apache.commons.codec.digest.DigestUtils
 
-import scala.collection.mutable.HashMap
 import scala.io.Source
 import scala.util.control.NonFatal
 
@@ -22,25 +21,18 @@ class Main(config: String, evolutions: String) {
 }
 
 object Main extends App {
-  if (args.length != 2)
+  if (args.length != 2) throw new InvalidNumberOfArguments(args)
 
-    /**
-      * TODO: Add appropriate error checks and handling
-      */
-    throw new InvalidNumberOfArguments(args)
   val config = args(0)
   val evolutions = args(1)
 
-  val configMap = new HashMap[String, String]()
-  for (line <- Source.fromFile(config).getLines()) {
-    val pairs: Array[String] = line.split('=')
-    if (pairs.length == 2) {
-      /**
-        * TODO: Add appropriate error checks and handling
-        */
-      configMap += (pairs(0).trim.replace("\"", "") -> pairs(1).trim.replace("\"", ""))
-    }
-  }
+  val configPairs = for {
+    line <- Source.fromFile(config).getLines().toIndexedSeq
+    configPair = line.split("=")
+    if configPair.length == 2
+  } yield (configPair(0).trim.replace("\"", ""), configPair(1).trim.replace("\"", ""))
+
+  val configMap = configPairs.toMap
 
   val mongoCmdString = configMap("mongodb.evolution.mongoCmd")
   val enabled = configMap("mongodb.evolution.enabled").toBoolean
