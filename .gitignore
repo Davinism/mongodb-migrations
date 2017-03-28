@@ -16,3 +16,4 @@ project/plugins/project/
 *.iws
 .idea
 out
+.DS_Store
