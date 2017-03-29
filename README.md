@@ -21,19 +21,26 @@ java -jar <compiled-project-name>.jar <config-file>.conf <directory-with-evoluti
 ```
 
 The compiled project name can be set in the build.sbt file.
-The .conf config file contains the necessary information for the MongoDB connection. The following 4 fields need to be set in the .conf file:
+The .conf config file contains the necessary information for the MongoDB connection. The following 2 fields need to be set in the .conf file:
 
-- mongodb.uri (String, the URI for the MongoDB connection)
 - mongodb.evolution.enabled (Boolean, boolean value to indicate whether or not the evolutions are enabled)
 - mongodb.evolution.mongoCmd (String, the command to open up the MongoDB client)
-- mongodb.db (String, the name of the MongoDB database)
+
+In addition, the following fields are optional, as they will have a default configuration value:
+
+- mongodb.evolution.applyDownEvolutions (Boolean, boolean value to indicate whether or not down evolutions should be applied; defaults to false)
+- mongodb.evolution.compareHashes (Boolean, boolean value to indicate whether or not hashes should be compared between evolutions; defaults to true)
+- mongodb.evolution.applyProdEvolutions (Boolean, boolean value to indicate whether or not production-level evolutions should be applied; defaults to false)
+- mongodb.evolution.useLocks (Boolean, boolean value to indicate whether or not locks should be used during migration; defaults to true)
 
 Each of these fields must be specified with an equals sign. An example is shown below:
 ```
-mongodb.uri = "mongodb://localhost:27017/mongodb-migrations"
 mongodb.evolution.enabled=true
 mongodb.evolution.mongoCmd="mongo localhost:27017/mongodb-migrations"
-mongodb.db = mongodb-migrations
+mongodb.evolution.applyDownEvolutions=false
+mongodb.evolution.compareHashes=true
+mongodb.evolution.applyProdEvolutions=false
+mongodb.evolution.useLocks=true
 ```
 
 The fields that need to be set are subject to change in the future, as we will likely include authentication.

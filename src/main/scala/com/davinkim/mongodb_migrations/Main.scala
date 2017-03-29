@@ -21,6 +21,13 @@ class Main(config: String, evolutions: String) {
 }
 
 object Main extends App {
+  lazy val configMongoCmd = "mongodb.evolution.mongoCmd"
+  lazy val configEnabled = "mongodb.evolution.enabled"
+  lazy val configApplyDownEvolutions = "mongodb.evolution.applyDownEvolutions"
+  lazy val configCompareHashesBool = "mongodb.evolution.compareHashes"
+  lazy val configApplyProdEvolutions = "mongodb.evolution.applyProdEvolutions"
+  lazy val configUseLocks = "mongodb.evolution.useLocks"
+
   if (args.length != 2) throw new InvalidNumberOfArguments(args)
 
   val config = args(0)
@@ -34,14 +41,12 @@ object Main extends App {
 
   val configMap = configPairs.toMap
 
-  val mongoCmdString = configMap("mongodb.evolution.mongoCmd")
-  val enabled = configMap("mongodb.evolution.enabled").toBoolean
-  val mongoURI = configMap("mongodb.uri")
-  val dbName = configMap("mongodb.db")
-  val applyDownEvolutions = false
-  val compareHashesBool = true
-  val applyProdEvolutions = false
-  val useLocks = true
+  val mongoCmdString = configMap.getOrElse(configMongoCmd, throw new MissingConfigException(configMongoCmd))
+  val enabled = configMap.getOrElse(configEnabled, throw new MissingConfigException(configEnabled)).toBoolean
+  val applyDownEvolutions = configMap.getOrElse(configApplyDownEvolutions, "false").toBoolean
+  val compareHashesBool = configMap.getOrElse(configCompareHashesBool, "true").toBoolean
+  val applyProdEvolutions = configMap.getOrElse(configApplyProdEvolutions, "false").toBoolean
+  val useLocks = configMap.getOrElse(configUseLocks, "true").toBoolean
 
   val mongoEvolution = new MongevScriptProcessor(
     mongoCmdString,
@@ -53,6 +58,7 @@ object Main extends App {
     evolutions
   )
   mongoEvolution.onStart()
+  println("Migration completed!")
 }
 
 private[mongodb_migrations] case class Evolution(revision: Int, db_up: String = "", db_down: String = "") {
@@ -459,7 +465,11 @@ class MongevScriptProcessor(mongoCmdString: String,
   def onStart() {
     withLock {
       val script = evolutionScript(new File(evolutionsPath))
-      val hasDown = script.exists(_.isInstanceOf[DownScript])
+      /**
+        * TODO: Not sure what this following line is used for just yet, but this will likely come into play
+        * when performing down evolutions.
+        */
+//      val hasDown = script.exists(_.isInstanceOf[DownScript])
 
       if (script.nonEmpty) {
         applyScript(script)
@@ -566,3 +576,5 @@ case class InvalidNumberOfArguments(args: Array[String]) extends Exception {
      |args(1): Folder path for the evolution JavaScript files.
    """.stripMargin
 }
+
+class MissingConfigException(configKey: String) extends RuntimeException(configKey + " is not set in the .conf file.")
