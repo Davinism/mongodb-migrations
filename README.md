@@ -45,7 +45,13 @@ mongodb.evolution.useLocks=true
 
 The fields that need to be set are subject to change in the future, as we will likely include authentication.
 
-The directory with the evolution scripts includes .js files that contain the MongoDB commands to be run. MongoDB commands are natively JavaScript, so all files in this directory will have a .js extension. Also, the file names themselves will be numerical values that indicate the order of the migration (ascending order). As an example, the migration in "1.js" will go first, and then "2.js", and so forth.
+The directory with the evolution scripts includes .js files that contain the MongoDB commands to be run. MongoDB commands are natively JavaScript, so all files in this directory will have a .js extension. Also, the file names themselves will be numerical values that indicate the order of the migration (ascending order). As an example, the migration in "1.js" will go first, and then "2.js", and so forth. Inside the file, precede all up-evolution commands with a "// --- !Ups" and all down-evolution commands with "// --- !Downs" (currently not yet implemented). An example is shown below:
+
+```
+// --- !Ups
+db.custom_messages.update( {}, { $set : { "sender" : "Davin Kim"} }, { multi: true })
+```
+
 
 Again, these files include the actual native MongoDB commands that will be run for the migrations.
 
