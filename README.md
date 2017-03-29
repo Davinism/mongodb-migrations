@@ -2,11 +2,11 @@
 
 mongodb-migrations is a command-line tool for running database migrations on MongoDB.
 
-# Features
+## Features
 
 mongodb-migrations includes a locking mechanism to make sure that no two migration processes are running at the same time. In addition, a SHA1 hash is generated for each migration to make sure that the same migrations do not get run over and over again.
 
-# Usage
+## Usage
 
 This project needs to first be compiled into a .jar file. sbt-assembly is a tool that can be used for this process.
 
