@@ -47,7 +47,7 @@ The fields that need to be set are subject to change in the future, as we will l
 
 The directory with the evolution scripts includes .js files that contain the MongoDB commands to be run. MongoDB commands are natively JavaScript, so all files in this directory will have a .js extension. Also, the file names themselves will be numerical values that indicate the order of the migration (ascending order). As an example, the migration in "1.js" will go first, and then "2.js", and so forth. Inside the file, precede all up-evolution commands with a "// --- !Ups" and all down-evolution commands with "// --- !Downs" (currently not yet implemented). An example is shown below:
 
-```
+```javascript
 // --- !Ups
 db.custom_messages.update( {}, { $set : { "sender" : "Davin Kim"} }, { multi: true })
 ```
