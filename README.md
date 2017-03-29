@@ -1,6 +1,6 @@
 # mongodb-migrations
 
-mongodb-migrations is a command-line tool for running database migrations on MongoDB.
+mongodb-migrations is a command-line tool for running database migrations on MongoDB. Dependencies to the Play 2 framework have been stripped out (play-json is included as a dependency, but that library itself does not have any dependencies to Play).
 
 This project is based off of the play-mongev Play 2 framework plug-in by scalableminds found [here][play-mongev]
 
