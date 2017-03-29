@@ -13,10 +13,10 @@ import scala.io.Source
 import scala.util.control.NonFatal
 
 class Main(config: String, evolutions: String) {
-  def getConfig(): String =
+  def getConfig: String =
     this.config
 
-  def getEvolutions(): String =
+  def getEvolutions: String =
     this.evolutions
 }
 
@@ -191,7 +191,7 @@ private[mongodb_migrations] trait MongoScriptExecutor extends MongevLogger {
     val jsPath = input.toAbsolutePath.toString
 
     val processLogger = new StringListLogger
-    val result = startProcess(mongoCmd, s"--quiet $jsPath") ! (processLogger)
+    val result = startProcess(mongoCmd, s"--quiet $jsPath") ! processLogger
 
     val output = processLogger.messages.reverse.mkString("\n")
 
@@ -251,7 +251,7 @@ trait Evolutions extends MongoScriptExecutor with EvolutionHelperScripts with Mo
   }
 
   def checkEvolutionsState() {
-    execute(unfinishedEvolutionsQuery) map {
+    execute(unfinishedEvolutionsQuery) foreach {
       case JsArray((problem: JsObject) +: _) =>
         val revision = (problem \ "revision").as[Int]
         val state = (problem \ "state").as[String]
@@ -264,9 +264,9 @@ trait Evolutions extends MongoScriptExecutor with EvolutionHelperScripts with Mo
 
         logger.error(error)
 
-        val humanScript = "// --- Rev:" + revision + ", " + (if (state == "applying_up") "Ups" else "Downs") + " - " + hash + "\n\n" + script;
+        val humanScript = "// --- Rev:" + revision + ", " + (if (state == "applying_up") "Ups" else "Downs") + " - " + hash + "\n\n" + script
 
-        throw InconsistentDatabase(humanScript, error, revision)
+        throw InconsistentDatabase(script = humanScript, error = error, rev = revision)
       case _ =>
     }
   }
@@ -342,7 +342,7 @@ trait Evolutions extends MongoScriptExecutor with EvolutionHelperScripts with Mo
     logger.debug("application evolutions: " + application.map(_.revision).mkString(" "))
 
     Option(application).filterNot(_.isEmpty).map {
-      case application =>
+      case `application` =>
         val database = databaseEvolutions()
         logger.debug("database evolutions: " + database.map(_.revision).mkString(" "))
 
@@ -422,24 +422,23 @@ trait Evolutions extends MongoScriptExecutor with EvolutionHelperScripts with Mo
             (revision + 1, (revision, Source.fromInputStream(stream)("UTF-8").mkString))
         }
     }.sortBy(_._1).map {
-      case (revision, script) => {
+      case (revision, script) =>
 
         val parsed = Collections.unfoldLeft(("", script.split('\n').toList.map(_.trim))) {
           case (_, Nil) => None
-          case (context, lines) => {
+          case (context, lines) =>
             val (some, next) = lines.span(l => !isMarker(l))
             Some((next.headOption.map(c => (mapUpsAndDowns(c), next.tail)).getOrElse("" -> Nil),
               context -> some.mkString("\n")))
-          }
         }.reverse.drop(1).groupBy(i => i._1).mapValues {
           _.map(_._2).mkString("\n").trim
         }
 
         Evolution(
           revision,
-          parsed.get(UPS).getOrElse(""),
-          parsed.get(DOWNS).getOrElse(""))
-      }
+          parsed.getOrElse(UPS, ""),
+          parsed.getOrElse(DOWNS, "")
+        )
     }.reverse
 
   }
@@ -462,7 +461,7 @@ class MongevScriptProcessor(mongoCmdString: String,
       val script = evolutionScript(new File(evolutionsPath))
       val hasDown = script.exists(_.isInstanceOf[DownScript])
 
-      if (!script.isEmpty) {
+      if (script.nonEmpty) {
         applyScript(script)
       }
     }
