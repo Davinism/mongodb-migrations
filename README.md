@@ -2,6 +2,10 @@
 
 mongodb-migrations is a command-line tool for running database migrations on MongoDB.
 
+This project is based off of the play-mongev Play 2 framework plug-in by scalableminds found [here][play-mongev]
+
+[play-mongev]: https://github.com/scalableminds/play-mongev
+
 ## Features
 
 mongodb-migrations includes a locking mechanism to make sure that no two migration processes are running at the same time. In addition, a SHA1 hash is generated for each migration to make sure that the same migrations do not get run over and over again.
